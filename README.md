@@ -4,9 +4,7 @@
 
 
 
-<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=700&size=28&duration=3500&pause=1200&color=00FF88&center=true&vCenter=true&width=850&lines=Full+Stack+Developer;Angular+20+Developer;Three.js+Developer;Python+Automation;AI+Chatbot+Developer;Always+Learning+New+Things..." />
 
-<br>
 
 <img src="https://komarev.com/ghpvc/?username=Umar-Qadri-850&style=for-the-badge&color=00ff88"/>
 
