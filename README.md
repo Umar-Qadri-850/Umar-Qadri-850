@@ -43,6 +43,9 @@
 </p>
 
 ---
+<p align="center">
+<img src="assets/divider.svg" width="100%">
+</p>
 
 <p align="center">
   <img src="assets/stats.svg" alt="Terminal Animation" width="100%">
