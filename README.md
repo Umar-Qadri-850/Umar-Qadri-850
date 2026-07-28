@@ -17,7 +17,7 @@
 
 
 <p align="center">
-  <img src="./terminal.svg" alt="Terminal Animation" width="100%">
+  <img src="assets/terminal.svg" alt="Terminal Animation" width="100%">
 </p>
 
 
