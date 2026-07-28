@@ -53,49 +53,16 @@
 
 ---
 
-# 🔥 GitHub Streak
-
-<div align="center">
-
-<img src="https://streak-stats.demolab.com?user=Umar-Qadri-850&theme=chartreuse-dark&hide_border=true"/>
-
-</div>
 
 ---
 
-# ⚡ Currently Working On
-
-✅ Angular 20
-
-✅ Three.js
-
-✅ AI Chatbots
-
-✅ Python Automation
-
-✅ Fiverr Freelancing
+<p align="center">
+  <img src="assets/skills.svg" alt="Terminal Animation" width="100%">
+</p>
 
 ---
 
-# ⚡ Skill Levels
 
-```text
-
-Angular          ████████████████████ 95%
-
-Three.js         ████████████████░░░░ 80%
-
-GSAP             ██████████████████░░ 90%
-
-Node.js          ███████████████░░░░░ 75%
-
-Python           █████████████████░░░ 85%
-
-AI               ████████████████░░░░ 82%
-
-UI/UX            ██████████████████░░ 90%
-
-```
 
 # 🌐 Connect With Me
 
