@@ -73,7 +73,7 @@ Location
 <p align="center">
 <img src="assets/divider.svg" width="100%">
 </p>
----
+
 
 # 🚀 Tech Stack
 
@@ -96,9 +96,7 @@ Location
 | 📈 PSX Stock Scraper | Python Automation |
 
 ---
-<p align="center">
-<img src="assets/divider.svg" width="100%">
-</p>
+
 # 📊 GitHub Stats
 
 <div align="center">
@@ -110,9 +108,7 @@ Location
 </div>
 
 ---
-<p align="center">
-<img src="assets/divider.svg" width="100%">
-</p>
+
 # 🔥 GitHub Streak
 
 <div align="center">
@@ -122,9 +118,7 @@ Location
 </div>
 
 ---
-<p align="center">
-<img src="assets/divider.svg" width="100%">
-</p>
+
 # ⚡ Currently Working On
 
 ✅ Angular 20
@@ -138,9 +132,7 @@ Location
 ✅ Fiverr Freelancing
 
 ---
-<p align="center">
-<img src="assets/divider.svg" width="100%">
-</p>
+
 # ⚡ Skill Levels
 
 ```text
@@ -160,9 +152,7 @@ AI               ████████████████░░░░ 82
 UI/UX            ██████████████████░░ 90%
 
 ```
-<p align="center">
-<img src="assets/divider.svg" width="100%">
-</p>
+
 # 🌐 Connect With Me
 
 <div align="center">
@@ -186,9 +176,7 @@ UI/UX            ██████████████████░░ 90
 </div>
 
 ---
-<p align="center">
-<img src="assets/divider.svg" width="100%">
-</p>
+
 # 🐍 Contribution Snake
 
 > Enable GitHub Actions first.
