@@ -18,52 +18,59 @@
 
 # 💻 About Me
 
-```javascript
-const Umar = {
+# <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Objects/Desktop%20Computer.png" width="32"> Terminal
 
-location:"Pakistan",
+```bash
+$ whoami
 
-role:"Full Stack Developer",
+Umar Qadri
 
-frontend:[
-"Angular 20",
-"TypeScript",
-"JavaScript",
-"HTML",
-"CSS",
-"TailwindCSS",
-"GSAP",
-"Three.js"
-],
+--------------------------------------
 
-backend:[
-"Node.js",
-"Express",
-"FastAPI",
-"Python"
-],
+Role
+────
 
-database:[
-"MySQL",
-"MongoDB",
-"Firebase"
-],
+Full Stack Developer
 
-currentlyWorkingOn:[
-"DOMIUS NOCTIS",
-"AI Chatbots",
-"3D Websites",
-"Angular Projects"
-],
+--------------------------------------
 
-currentlyLearning:[
-"Docker",
-"AWS",
-"Advanced Backend"
-],
+Frontend
 
-funFact:"I love building cinematic websites."
-}
+✔ Angular 20
+✔ TypeScript
+✔ JavaScript
+✔ Three.js
+✔ GSAP
+✔ TailwindCSS
+
+--------------------------------------
+
+Backend
+
+✔ Node.js
+✔ Express.js
+✔ FastAPI
+✔ Python
+
+--------------------------------------
+
+Database
+
+✔ MongoDB
+✔ MySQL
+✔ Firebase
+
+--------------------------------------
+
+Status
+
+🟢 Available for Freelance
+
+--------------------------------------
+
+Location
+
+📍 Pakistan
 ```
 
 ---
