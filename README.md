@@ -30,9 +30,41 @@
 
 <div align="center">
 
-<img src="https://skillicons.dev/icons?i=angular,typescript,javascript,nodejs,express,python,mongodb,mysql,firebase,tailwind,html,css,git,github,vscode,docker,figma,postman&perline=6"/>
+<div style="overflow:hidden;width:100%;">
+
+<div style="
+display:flex;
+width:max-content;
+animation:scroll 20s linear infinite;
+">
+
+<img src="https://skillicons.dev/icons?i=angular,typescript,javascript,nodejs,express,python,mongodb,mysql,firebase,tailwind,html,css,git,github,vscode,docker,figma,postman&perline=18"
+height="80"/>
+
+<img src="https://skillicons.dev/icons?i=angular,typescript,javascript,nodejs,express,python,mongodb,mysql,firebase,tailwind,html,css,git,github,vscode,docker,figma,postman&perline=18"
+height="80"/>
 
 </div>
+
+</div>
+
+</div>
+
+<style>
+
+@keyframes scroll {
+
+from {
+transform:translateX(0);
+}
+
+to {
+transform:translateX(-50%);
+}
+
+}
+
+</style>
 
 ---
 
