@@ -132,7 +132,25 @@ Location
 ✅ Fiverr Freelancing
 
 ---
+# ⚡ Skill Levels
 
+```text
+
+Angular          ████████████████████ 95%
+
+Three.js         ████████████████░░░░ 80%
+
+GSAP             ██████████████████░░ 90%
+
+Node.js          ███████████████░░░░░ 75%
+
+Python           █████████████████░░░ 85%
+
+AI               ████████████████░░░░ 82%
+
+UI/UX            ██████████████████░░ 90%
+
+```
 # 🌐 Connect With Me
 
 <div align="center">
