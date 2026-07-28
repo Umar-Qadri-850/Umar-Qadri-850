@@ -36,7 +36,7 @@
 
 ---
 
-# 🌟 Featured Projects
+
 
 <p align="center">
 <img src="assets/projects.svg" width="100%">
