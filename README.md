@@ -7,14 +7,14 @@
 
 
 <img src="https://komarev.com/ghpvc/?username=Umar-Qadri-850&style=for-the-badge&color=00ff88"/>
-
+![Profile Views](https://komarev.com/ghpvc/?username=Umar-Qadri-850&style=for-the-badge&color=00ff88)
+![Followers](https://img.shields.io/github/followers/Umar-Qadri-850?style=for-the-badge&color=00ff88&labelColor=1a1a1a)
+![Freelance](https://img.shields.io/badge/Freelance-Available-00ff88?style=for-the-badge&labelColor=1a1a1a)
 </div>
 
 ---
 
-![Profile Views](https://komarev.com/ghpvc/?username=Umar-Qadri-850&style=for-the-badge&color=00ff88)
-![Followers](https://img.shields.io/github/followers/Umar-Qadri-850?style=for-the-badge&color=00ff88&labelColor=1a1a1a)
-![Freelance](https://img.shields.io/badge/Freelance-Available-00ff88?style=for-the-badge&labelColor=1a1a1a)
+
 
 # <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Objects/Desktop%20Computer.png" width="32"> Terminal
 
