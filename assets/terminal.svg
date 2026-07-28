@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 700 698" width="700" height="698" font-family="'SF Mono','Fira Code',Consolas,Menlo,monospace" font-size="13">
+  <defs>
+    <clipPath id="clip0"><rect x="14" y="44" width="0" height="18"><animate id="a0" attributeName="width" from="0" to="169.0" dur="0.90s" begin="0s" fill="freeze"/></rect></clipPath>
+    <clipPath id="clip1"><rect x="14" y="84" width="0" height="18"><animate id="a2" attributeName="width" from="0" to="216.1" dur="1.17s" begin="a1.end+0.35s" fill="freeze"/></rect></clipPath>
+    <clipPath id="clip2"><rect x="14" y="144" width="0" height="18"><animate id="a5" attributeName="width" from="0" to="247.5" dur="1.35s" begin="a4.end+0.35s" fill="freeze"/></rect></clipPath>
+    <clipPath id="clip3"><rect x="14" y="304" width="0" height="18"><animate id="a13" attributeName="width" from="0" to="239.6" dur="1.30s" begin="a12.end+0.35s" fill="freeze"/></rect></clipPath>
+    <clipPath id="clip4"><rect x="14" y="424" width="0" height="18"><animate id="a19" attributeName="width" from="0" to="247.5" dur="1.35s" begin="a18.end+0.35s" fill="freeze"/></rect></clipPath>
+    <clipPath id="clip5"><rect x="14" y="524" width="0" height="18"><animate id="a24" attributeName="width" from="0" to="231.8" dur="1.26s" begin="a23.end+0.35s" fill="freeze"/></rect></clipPath>
+    <clipPath id="clip6"><rect x="14" y="584" width="0" height="18"><animate id="a27" attributeName="width" from="0" to="247.5" dur="1.35s" begin="a26.end+0.35s" fill="freeze"/></rect></clipPath>
+  </defs>
+  <rect x="0.5" y="0.5" width="699" height="697" rx="10" fill="#1e1e1e" stroke="#000" stroke-opacity="0.4"/>
+  <rect x="0" y="0" width="700" height="34" rx="10" fill="#2b2b2b"/>
+  <rect x="0" y="24" width="700" height="10" fill="#2b2b2b"/>
+  <circle cx="22" cy="17" r="6" fill="#ff5f56"/>
+  <circle cx="42" cy="17" r="6" fill="#ffbd2e"/>
+  <circle cx="62" cy="17" r="6" fill="#27c93f"/>
+  <text x="350" y="21" fill="#9a9a9a" font-size="12" text-anchor="middle">Dev@umar:~</text>
+  <g clip-path="url(#clip0)"><text x="16" y="58" fill="#27c93f">Dev@umar:~$ </text><text x="125.9" y="58" fill="#d4d4d4">whoami</text></g>
+    <text x="16" y="78" fill="#e6e6e6" opacity="0">Umar Qadri<animate id="a1" attributeName="opacity" from="0" to="1" dur="0.28s" begin="a0.end+0.12s" fill="freeze"/></text>
+    <g clip-path="url(#clip1)"><text x="16" y="98" fill="#27c93f">Dev@umar:~$ </text><text x="125.9" y="98" fill="#d4d4d4">cat role.txt</text></g>
+    <text x="16" y="118" fill="#4ec9b0" opacity="0">Role<animate id="a3" attributeName="opacity" from="0" to="1" dur="0.28s" begin="a2.end+0.12s" fill="freeze"/></text>
+    <text x="16" y="138" fill="#e6e6e6" opacity="0">Full Stack Developer<animate id="a4" attributeName="opacity" from="0" to="1" dur="0.28s" begin="a3.end+0.12s" fill="freeze"/></text>
+    <g clip-path="url(#clip2)"><text x="16" y="158" fill="#27c93f">Dev@umar:~$ </text><text x="125.9" y="158" fill="#d4d4d4">cat frontend.txt</text></g>
+    <text x="16" y="178" fill="#4ec9b0" opacity="0">Frontend<animate id="a6" attributeName="opacity" from="0" to="1" dur="0.28s" begin="a5.end+0.12s" fill="freeze"/></text>
+    <text x="16" y="198" fill="#27c93f" opacity="0">✔ Angular 20<animate id="a7" attributeName="opacity" from="0" to="1" dur="0.28s" begin="a6.end+0.12s" fill="freeze"/></text>
+    <text x="16" y="218" fill="#27c93f" opacity="0">✔ TypeScript<animate id="a8" attributeName="opacity" from="0" to="1" dur="0.28s" begin="a7.end+0.12s" fill="freeze"/></text>
+    <text x="16" y="238" fill="#27c93f" opacity="0">✔ TailwindCSS<animate id="a9" attributeName="opacity" from="0" to="1" dur="0.28s" begin="a8.end+0.12s" fill="freeze"/></text>
+    <text x="16" y="258" fill="#27c93f" opacity="0">✔ Three.js<animate id="a10" attributeName="opacity" from="0" to="1" dur="0.28s" begin="a9.end+0.12s" fill="freeze"/></text>
+    <text x="16" y="278" fill="#27c93f" opacity="0">✔ GSAP<animate id="a11" attributeName="opacity" from="0" to="1" dur="0.28s" begin="a10.end+0.12s" fill="freeze"/></text>
+    <text x="16" y="298" fill="#27c93f" opacity="0">✔ JavaScript<animate id="a12" attributeName="opacity" from="0" to="1" dur="0.28s" begin="a11.end+0.12s" fill="freeze"/></text>
+    <g clip-path="url(#clip3)"><text x="16" y="318" fill="#27c93f">Dev@umar:~$ </text><text x="125.9" y="318" fill="#d4d4d4">cat backend.txt</text></g>
+    <text x="16" y="338" fill="#4ec9b0" opacity="0">Backend<animate id="a14" attributeName="opacity" from="0" to="1" dur="0.28s" begin="a13.end+0.12s" fill="freeze"/></text>
+    <text x="16" y="358" fill="#27c93f" opacity="0">✔ Node.js<animate id="a15" attributeName="opacity" from="0" to="1" dur="0.28s" begin="a14.end+0.12s" fill="freeze"/></text>
+    <text x="16" y="378" fill="#27c93f" opacity="0">✔ Express.js<animate id="a16" attributeName="opacity" from="0" to="1" dur="0.28s" begin="a15.end+0.12s" fill="freeze"/></text>
+    <text x="16" y="398" fill="#27c93f" opacity="0">✔ FastAPI<animate id="a17" attributeName="opacity" from="0" to="1" dur="0.28s" begin="a16.end+0.12s" fill="freeze"/></text>
+    <text x="16" y="418" fill="#27c93f" opacity="0">✔ Python<animate id="a18" attributeName="opacity" from="0" to="1" dur="0.28s" begin="a17.end+0.12s" fill="freeze"/></text>
+    <g clip-path="url(#clip4)"><text x="16" y="438" fill="#27c93f">Dev@umar:~$ </text><text x="125.9" y="438" fill="#d4d4d4">cat database.txt</text></g>
+    <text x="16" y="458" fill="#4ec9b0" opacity="0">Database<animate id="a20" attributeName="opacity" from="0" to="1" dur="0.28s" begin="a19.end+0.12s" fill="freeze"/></text>
+    <text x="16" y="478" fill="#27c93f" opacity="0">✔ MongoDB<animate id="a21" attributeName="opacity" from="0" to="1" dur="0.28s" begin="a20.end+0.12s" fill="freeze"/></text>
+    <text x="16" y="498" fill="#27c93f" opacity="0">✔ MySQL<animate id="a22" attributeName="opacity" from="0" to="1" dur="0.28s" begin="a21.end+0.12s" fill="freeze"/></text>
+    <text x="16" y="518" fill="#27c93f" opacity="0">✔ Firebase<animate id="a23" attributeName="opacity" from="0" to="1" dur="0.28s" begin="a22.end+0.12s" fill="freeze"/></text>
+    <g clip-path="url(#clip5)"><text x="16" y="538" fill="#27c93f">Dev@umar:~$ </text><text x="125.9" y="538" fill="#d4d4d4">cat status.txt</text></g>
+    <text x="16" y="558" fill="#4ec9b0" opacity="0">Status<animate id="a25" attributeName="opacity" from="0" to="1" dur="0.28s" begin="a24.end+0.12s" fill="freeze"/></text>
+    <text x="16" y="578" fill="#27c93f" opacity="0">Available for Freelance<animate id="a26" attributeName="opacity" from="0" to="1" dur="0.28s" begin="a25.end+0.12s" fill="freeze"/></text>
+    <g clip-path="url(#clip6)"><text x="16" y="598" fill="#27c93f">Dev@umar:~$ </text><text x="125.9" y="598" fill="#d4d4d4">cat location.txt</text></g>
+    <text x="16" y="618" fill="#4ec9b0" opacity="0">Location<animate id="a28" attributeName="opacity" from="0" to="1" dur="0.28s" begin="a27.end+0.12s" fill="freeze"/></text>
+    <text x="16" y="638" fill="#569cd6" opacity="0">Pakistan<animate id="a29" attributeName="opacity" from="0" to="1" dur="0.28s" begin="a28.end+0.12s" fill="freeze"/></text>
+    <text x="16" y="658" fill="#27c93f" opacity="0">Dev@umar:~$ <animate id="a30" attributeName="opacity" from="0" to="1" dur="0.2s" begin="a29.end+0.35s" fill="freeze"/></text>
+    <rect x="125.9" y="646" width="8" height="14" fill="#d4d4d4" opacity="0"><animate attributeName="opacity" from="0" to="1" dur="0.01s" begin="a30.end" fill="freeze"/><animate attributeName="opacity" values="1;1;0;0;1" dur="1s" begin="a30.end" repeatCount="indefinite"/></rect>
+</svg>
