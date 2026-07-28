@@ -38,13 +38,9 @@
 
 # 🌟 Featured Projects
 
-| Project | Description |
-|---------|-------------|
-| 🏛 DOMIUS NOCTIS | Luxury 3D Clothing Website |
-| 🎥 Google Meet Clone | Angular + WebRTC |
-| 🤖 AI PDF Chatbot | GPT + OCR + FastAPI |
-| 💬 TalkGenie Clone | Angular Clone |
-| 📈 PSX Stock Scraper | Python Automation |
+<p align="center">
+<img src="assets/projects.svg" width="100%">
+</p>
 
 ---
 
