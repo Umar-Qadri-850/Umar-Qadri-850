@@ -189,9 +189,7 @@ UI/UX            ██████████████████░░ 90
 
 ## ⚡ "Code. Build. Learn. Repeat."
 
-<img src="assets/footer.svg" width="100%"/>
 
-</div>
 
 <p align="center">
   <img src="footer.svg" width="100%" />
