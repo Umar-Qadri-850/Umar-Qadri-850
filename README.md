@@ -94,7 +94,7 @@
 
 > Enable GitHub Actions first.
 
-![Snake animation](https://raw.githubusercontent.com/Umar-Qadri-850/Umar-Qadri-850/output/github-contribution-grid-snake-dark.svg)
+https://raw.githubusercontent.com/Umar-Qadri-850/Umar-Qadri-850/output/github-contribution-grid-snake-dark.svg
 
 ---
 
