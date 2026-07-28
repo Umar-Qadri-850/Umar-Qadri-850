@@ -1,0 +1,587 @@
+<svg xmlns="http://www.w3.org/2000/svg"
+     width="1600"
+     height="220"
+     viewBox="0 0 1600 220">
+<defs>
+  <radialGradient id="bgGrad" cx="50%" cy="50%" r="80%">
+    <stop offset="0%" stop-color="#071a10"/>
+    <stop offset="75%" stop-color="#000000"/>
+    <stop offset="100%" stop-color="#000000"/>
+  </radialGradient>
+
+  <radialGradient id="vignette" cx="50%" cy="50%" r="75%">
+    <stop offset="40%" stop-color="#000000" stop-opacity="0"/>
+    <stop offset="100%" stop-color="#000000" stop-opacity="0.8"/>
+  </radialGradient>
+
+  <linearGradient id="fadeMask" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0%" stop-color="#ffffff" stop-opacity="0"/>
+    <stop offset="20%" stop-color="#ffffff" stop-opacity="0.9"/>
+    <stop offset="80%" stop-color="#ffffff" stop-opacity="0.9"/>
+    <stop offset="100%" stop-color="#ffffff" stop-opacity="0"/>
+  </linearGradient>
+  <mask id="rainMask">
+    <rect x="0" y="0" width="1600" height="220" fill="url(#fadeMask)"/>
+  </mask>
+
+  <filter id="glowSoft" x="-100%" y="-100%" width="300%" height="300%">
+    <feGaussianBlur stdDeviation="4" result="blur1"/>
+    <feGaussianBlur stdDeviation="12" result="blur2" in="SourceGraphic"/>
+    <feMerge>
+      <feMergeNode in="blur2"/>
+      <feMergeNode in="blur1"/>
+      <feMergeNode in="SourceGraphic"/>
+    </feMerge>
+  </filter>
+
+  <filter id="glowText" x="-100%" y="-100%" width="300%" height="300%">
+    <feGaussianBlur stdDeviation="6" result="blur"/>
+    <feMerge>
+      <feMergeNode in="blur"/>
+      <feMergeNode in="SourceGraphic"/>
+    </feMerge>
+  </filter>
+
+  <pattern id="scanlines" width="4" height="4" patternUnits="userSpaceOnUse">
+    <rect width="4" height="1" fill="#00ff99" opacity="0.035"/>
+  </pattern>
+
+  <clipPath id="roundedBanner">
+    <rect x="0" y="0" width="1600" height="220" rx="6" ry="6"/>
+  </clipPath>
+</defs>
+
+<g clip-path="url(#roundedBanner)">
+  <!-- background -->
+  <rect x="0" y="0" width="1600" height="220" fill="url(#bgGrad)"/>
+
+  <!-- matrix rain -->
+  <g mask="url(#rainMask)" opacity="0.9">
+<g transform="translate(0,-438)">
+      <text x="0" y="0" font-family="monospace" font-size="15" fill="#c6ffe3" opacity="1">イ</text><text x="0" y="15" font-family="monospace" font-size="15" fill="#00ff8c" opacity="0.82">5</text><text x="0" y="30" font-family="monospace" font-size="15" fill="#00ff8c" opacity="0.63">カ</text><text x="0" y="45" font-family="monospace" font-size="15" fill="#00ff8c" opacity="0.45">1</text><text x="0" y="60" font-family="monospace" font-size="15" fill="#00ff8c" opacity="0.26">5</text>
+      <animateTransform attributeName="transform" attributeType="XML" type="translate"
+        from="0,-438" to="0,360" dur="5.49s" begin="-1.34s" repeatCount="indefinite" additive="sum"/>
+    </g>
+<g transform="translate(16,-406)">
+      <text x="0" y="0" font-family="monospace" font-size="15" fill="#c6ffe3" opacity="1">ウ</text><text x="0" y="15" font-family="monospace" font-size="15" fill="#00ff8c" opacity="0.92">ツ</text><text x="0" y="30" font-family="monospace" font-size="15" fill="#00ff8c" opacity="0.85">テ</text><text x="0" y="45" font-family="monospace" font-size="15" fill="#00ff8c" opacity="0.77">ユ</text><text x="0" y="60" font-family="monospace" font-size="15" fill="#00ff8c" opacity="0.69">ロ</text><text x="0" y="75" font-family="monospace" font-size="15" fill="#00ff8c" opacity="0.62">キ</text><text x="0" y="90" font-family="monospace" font-size="15" fill="#00ff8c" opacity="0.54">リ</text><text x="0" y="105" font-family="monospace" font-size="15" fill="#00ff8c" opacity="0.46">チ</text><text x="0" y="120" font-family="monospace" font-size="15" fill="#00ff8c" opacity="0.39">3</text><text x="0" y="135" font-family="monospace" font-size="15" fill="#00ff8c" opacity="0.31">ン</text><text x="0" y="150" font-family="monospace" font-size="15" fill="#00ff8c" opacity="0.23">2</text><text x="0" y="165" font-family="monospace" font-size="15" fill="#00ff8c" opacity="0.16">ラ</text>
+      <animateTransform attributeName="transform" attributeType="XML" type="translate"
+        from="16,-406" to="16,472" dur="4.9s" begin="-0.16s" repeatCount="indefinite" additive="sum"/>
+    </g>
+<g transform="translate(32,-338)">
+      <text x="0" y="0" font-family="monospace" font-size="15" fill="#c6ffe3" opacity="1">$</text><text x="0" y="15" font-family="monospace" font-size="15" fill="#00ff8c" opacity="0.91">オ</text><text x="0" y="30" font-family="monospace" font-size="15" fill="#00ff8c" opacity="0.82">6</text><text x="0" y="45" font-family="monospace" font-size="15" fill="#00ff8c" opacity="0.72">9</text><text x="0" y="60" font-family="monospace" font-size="15" fill="#00ff8c" opacity="0.63">ソ</text><text x="0" y="75" font-family="monospace" font-size="15" fill="#00ff8c" opacity="0.54">2</text><text x="0" y="90" font-family="monospace" font-size="15" fill="#00ff8c" opacity="0.45">ミ</text><text x="0" y="105" font-family="monospace" font-size="15" fill="#00ff8c" opacity="0.36">ハ</text><text x="0" y="120" font-family="monospace" font-size="15" fill="#00ff8c" opacity="0.26">ニ</text><text x="0" y="135" font-family="monospace" font-size="15" fill="#00ff8c" opacity="0.17">ク</text>
+      <animateTransform attributeName="transform" attributeType="XML" type="translate"
+        from="32,-338" to="32,440" dur="4.35s" begin="-1.21s" repeatCount="indefinite" additive="sum"/>
+    </g>
+<g transform="translate(48,-60)">
+      <text x="0" y="0" font-family="monospace" font-size="15" fill="#c6ffe3" opacity="1">カ</text><text x="0" y="15" font-family="monospace" font-size="15" fill="#00ff8c" opacity="0.87">ヒ</text><text x="0" y="30" font-family="monospace" font-size="15" fill="#00ff8c" opacity="0.74">#</text><text x="0" y="45" font-family="monospace" font-size="15" fill="#00ff8c" opacity="0.61">ヒ</text><text x="0" y="60" font-family="monospace" font-size="15" fill="#00ff8c" opacity="0.47">ロ</text><text x="0" y="75" font-family="monospace" font-size="15" fill="#00ff8c" opacity="0.34">ナ</text><text x="0" y="90" font-family="monospace" font-size="15" fill="#00ff8c" opacity="0.21">9</text>
+      <animateTransform attributeName="transform" attributeType="XML" type="translate"
+        from="48,-60" to="48,392" dur="3.91s" begin="-0.36s" repeatCount="indefinite" additive="sum"/>
+    </g>
+<g transform="translate(64,-77)">
+      <text x="0" y="0" font-family="monospace" font-size="15" fill="#c6ffe3" opacity="1">&gt;</text><text x="0" y="15" font-family="monospace" font-size="15" fill="#00ff8c" opacity="0.77">ヘ</text><text x="0" y="30" font-family="monospace" font-size="15" fill="#00ff8c" opacity="0.54">ウ</text><text x="0" y="45" font-family="monospace" font-size="15" fill="#00ff8c" opacity="0.31">リ</text>
+      <animateTransform attributeName="transform" attributeType="XML" type="translate"
+        from="64,-77" to="64,344" dur="4.39s" begin="-0.55s" repeatCount="indefinite" additive="sum"/>
+    </g>
+<g transform="translate(80,-26)">
+      <text x="0" y="0" font-family="monospace" font-size="15" fill="#c6ffe3" opacity="1">フ</text><text x="0" y="15" font-family="monospace" font-size="15" fill="#00ff8c" opacity="0.89">ル</text><text x="0" y="30" font-family="monospace" font-size="15" fill="#00ff8c" opacity="0.77">チ</text><text x="0" y="45" font-family="monospace" font-size="15" fill="#00ff8c" opacity="0.66">3</text><text x="0" y="60" font-family="monospace" font-size="15" fill="#00ff8c" opacity="0.54">セ</text><text x="0" y="75" font-family="monospace" font-size="15" fill="#00ff8c" opacity="0.42">ネ</text><text x="0" y="90" font-family="monospace" font-size="15" fill="#00ff8c" opacity="0.31">0</text><text x="0" y="105" font-family="monospace" font-size="15" fill="#00ff8c" opacity="0.19">テ</text>
+      <animateTransform attributeName="transform" attributeType="XML" type="translate"
+        from="80,-26" to="80,408" dur="5.05s" begin="-4.47s" repeatCount="indefinite" additive="sum"/>
+    </g>
+<g transform="translate(96,-410)">
+      <text x="0" y="0" font-family="monospace" font-size="15" fill="#c6ffe3" opacity="1">ヘ</text><text x="0" y="15" font-family="monospace" font-size="15" fill="#00ff8c" opacity="0.89">ニ</text><text x="0" y="30" font-family="monospace" font-size="15" fill="#00ff8c" opacity="0.77">メ</text><text x="0" y="45" font-family="monospace" font-size="15" fill="#00ff8c" opacity="0.66">ヲ</text><text x="0" y="60" font-family="monospace" font-size="15" fill="#00ff8c" opacity="0.54">@</text><text x="0" y="75" font-family="monospace" font-size="15" fill="#00ff8c" opacity="0.42">フ</text><text x="0" y="90" font-family="monospace" font-size="15" fill="#00ff8c" opacity="0.31">ソ</text><text x="0" y="105" font-family="monospace" font-size="15" fill="#00ff8c" opacity="0.19">フ</text>
+      <animateTransform attributeName="transform" attributeType="XML" type="translate"
+        from="96,-410" to="96,408" dur="5.94s" begin="-5.15s" repeatCount="indefinite" additive="sum"/>
+    </g>
+<g transform="translate(112,-343)">
+      <text x="0" y="0" font-family="monospace" font-size="15" fill="#c6ffe3" opacity="1">1</text><text x="0" y="15" font-family="monospace" font-size="15" fill="#00ff8c" opacity="0.9">ン</text><text x="0" y="30" font-family="monospace" font-size="15" fill="#00ff8c" opacity="0.8">セ</text><text x="0" y="45" font-family="monospace" font-size="15" fill="#00ff8c" opacity="0.69">ロ</text><text x="0" y="60" font-family="monospace" font-size="15" fill="#00ff8c" opacity="0.59">ヲ</text><text x="0" y="75" font-family="monospace" font-size="15" fill="#00ff8c" opacity="0.49">ソ</text><text x="0" y="90" font-family="monospace" font-size="15" fill="#00ff8c" opacity="0.39">ラ</text><text x="0" y="105" font-family="monospace" font-size="15" fill="#00ff8c" opacity="0.28">4</text><text x="0" y="120" font-family="monospace" font-size="15" fill="#00ff8c" opacity="0.18">ト</text>
+      <animateTransform attributeName="transform" attributeType="XML" type="translate"
+        from="112,-343" to="112,424" dur="5.21s" begin="-3.66s" repeatCount="indefinite" additive="sum"/>
+    </g>
+<g transform="translate(128,-214)">
+      <text x="0" y="0" font-family="monospace" font-size="15" fill="#c6ffe3" opacity="1">ヲ</text><text x="0" y="15" font-family="monospace" font-size="15" fill="#00ff8c" opacity="0.85">2</text><text x="0" y="30" font-family="monospace" font-size="15" fill="#00ff8c" opacity="0.69">リ</text><text x="0" y="45" font-family="monospace" font-size="15" fill="#00ff8c" opacity="0.54">テ</text><text x="0" y="60" font-family="monospace" font-size="15" fill="#00ff8c" opacity="0.39">1</text><text x="0" y="75" font-family="monospace" font-size="15" fill="#00ff8c" opacity="0.23">ノ</text>
+      <animateTransform attributeName="transform" attributeType="XML" type="translate"
+        from="128,-214" to="128,376" dur="4.08s" begin="-4.04s" repeatCount="indefinite" additive="sum"/>
+    </g>
+<g transform="translate(144,-333)">
+      <text x="0" y="0" font-family="monospace" font-size="15" fill="#c6ffe3" opacity="1">ホ</text><text x="0" y="15" font-family="monospace" font-size="15" fill="#00ff8c" opacity="0.77">ニ</text><text x="0" y="30" font-family="monospace" font-size="15" fill="#00ff8c" opacity="0.54">セ</text><text x="0" y="45" font-family="monospace" font-size="15" fill="#00ff8c" opacity="0.31">ツ</text>
+      <animateTransform attributeName="transform" attributeType="XML" type="translate"
+        from="144,-333" to="144,344" dur="5.81s" begin="-4.68s" repeatCount="indefinite" additive="sum"/>
+    </g>
+<g transform="translate(160,-83)">
+      <text x="0" y="0" font-family="monospace" font-size="15" fill="#c6ffe3" opacity="1">ホ</text><text x="0" y="15" font-family="monospace" font-size="15" fill="#00ff8c" opacity="0.93">%</text><text x="0" y="30" font-family="monospace" font-size="15" fill="#00ff8c" opacity="0.86">&lt;</text><text x="0" y="45" font-family="monospace" font-size="15" fill="#00ff8c" opacity="0.79">ン</text><text x="0" y="60" font-family="monospace" font-size="15" fill="#00ff8c" opacity="0.72">メ</text><text x="0" y="75" font-family="monospace" font-size="15" fill="#00ff8c" opacity="0.65">ク</text><text x="0" y="90" font-family="monospace" font-size="15" fill="#00ff8c" opacity="0.58">ナ</text><text x="0" y="105" font-family="monospace" font-size="15" fill="#00ff8c" opacity="0.5">イ</text><text x="0" y="120" font-family="monospace" font-size="15" fill="#00ff8c" opacity="0.43">ト</text><text x="0" y="135" font-family="monospace" font-size="15" fill="#00ff8c" opacity="0.36">5</text><text x="0" y="150" font-family="monospace" font-size="15" fill="#00ff8c" opacity="0.29">リ</text><text x="0" y="165" font-family="monospace" font-size="15" fill="#00ff8c" opacity="0.22">ラ</text><text x="0" y="180" font-family="monospace" font-size="15" fill="#00ff8c" opacity="0.15">ナ</text>
+      <animateTransform attributeName="transform" attributeType="XML" type="translate"
+        from="160,-83" to="160,488" dur="3.83s" begin="-2.51s" repeatCount="indefinite" additive="sum"/>
+    </g>
+<g transform="translate(176,-231)">
+      <text x="0" y="0" font-family="monospace" font-size="15" fill="#c6ffe3" opacity="1">テ</text><text x="0" y="15" font-family="monospace" font-size="15" fill="#00ff8c" opacity="0.93">イ</text><text x="0" y="30" font-family="monospace" font-size="15" fill="#00ff8c" opacity="0.86">ユ</text><text x="0" y="45" font-family="monospace" font-size="15" fill="#00ff8c" opacity="0.79">ヤ</text><text x="0" y="60" font-family="monospace" font-size="15" fill="#00ff8c" opacity="0.72">ウ</text><text x="0" y="75" font-family="monospace" font-size="15" fill="#00ff8c" opacity="0.65">6</text><text x="0" y="90" font-family="monospace" font-size="15" fill="#00ff8c" opacity="0.58">エ</text><text x="0" y="105" font-family="monospace" font-size="15" fill="#00ff8c" opacity="0.5">$</text><text x="0" y="120" font-family="monospace" font-size="15" fill="#00ff8c" opacity="0.43">ア</text><text x="0" y="135" font-family="monospace" font-size="15" fill="#00ff8c" opacity="0.36">ク</text><text x="0" y="150" font-family="monospace" font-size="15" fill="#00ff8c" opacity="0.29">ヲ</text><text x="0" y="165" font-family="monospace" font-size="15" fill="#00ff8c" opacity="0.22">ソ</text><text x="0" y="180" font-family="monospace" font-size="15" fill="#00ff8c" opacity="0.15">8</text>
+      <animateTransform attributeName="transform" attributeType="XML" type="translate"
+        from="176,-231" to="176,488" dur="6.1s" begin="-2.44s" repeatCount="indefinite" additive="sum"/>
+    </g>
+<g transform="translate(192,-145)">
+      <text x="0" y="0" font-family="monospace" font-size="15" fill="#c6ffe3" opacity="1">メ</text><text x="0" y="15" font-family="monospace" font-size="15" fill="#00ff8c" opacity="0.91">ヨ</text><text x="0" y="30" font-family="monospace" font-size="15" fill="#00ff8c" opacity="0.82">ナ</text><text x="0" y="45" font-family="monospace" font-size="15" fill="#00ff8c" opacity="0.72">\</text><text x="0" y="60" font-family="monospace" font-size="15" fill="#00ff8c" opacity="0.63">リ</text><text x="0" y="75" font-family="monospace" font-size="15" fill="#00ff8c" opacity="0.54">$</text><text x="0" y="90" font-family="monospace" font-size="15" fill="#00ff8c" opacity="0.45">?</text><text x="0" y="105" font-family="monospace" font-size="15" fill="#00ff8c" opacity="0.36">オ</text><text x="0" y="120" font-family="monospace" font-size="15" fill="#00ff8c" opacity="0.26">1</text><text x="0" y="135" font-family="monospace" font-size="15" fill="#00ff8c" opacity="0.17">4</text>
+      <animateTransform attributeName="transform" attributeType="XML" type="translate"
+        from="192,-145" to="192,440" dur="2.85s" begin="-1.09s" repeatCount="indefinite" additive="sum"/>
+    </g>
+<g transform="translate(208,-101)">
+      <text x="0" y="0" font-family="monospace" font-size="15" fill="#c6ffe3" opacity="1">7</text><text x="0" y="15" font-family="monospace" font-size="15" fill="#00ff8c" opacity="0.82">ン</text><text x="0" y="30" font-family="monospace" font-size="15" fill="#00ff8c" opacity="0.63">ハ</text><text x="0" y="45" font-family="monospace" font-size="15" fill="#00ff8c" opacity="0.45">ア</text><text x="0" y="60" font-family="monospace" font-size="15" fill="#00ff8c" opacity="0.26">ヌ</text>
+      <animateTransform attributeName="transform" attributeType="XML" type="translate"
+        from="208,-101" to="208,360" dur="6.05s" begin="-4.54s" repeatCount="indefinite" additive="sum"/>
+    </g>
+<g transform="translate(224,-370)">
+      <text x="0" y="0" font-family="monospace" font-size="15" fill="#c6ffe3" opacity="1">%</text><text x="0" y="15" font-family="monospace" font-size="15" fill="#00ff8c" opacity="0.91">4</text><text x="0" y="30" font-family="monospace" font-size="15" fill="#00ff8c" opacity="0.82">ナ</text><text x="0" y="45" font-family="monospace" font-size="15" fill="#00ff8c" opacity="0.72">\</text><text x="0" y="60" font-family="monospace" font-size="15" fill="#00ff8c" opacity="0.63">ユ</text><text x="0" y="75" font-family="monospace" font-size="15" fill="#00ff8c" opacity="0.54">6</text><text x="0" y="90" font-family="monospace" font-size="15" fill="#00ff8c" opacity="0.45">タ</text><text x="0" y="105" font-family="monospace" font-size="15" fill="#00ff8c" opacity="0.36">ユ</text><text x="0" y="120" font-family="monospace" font-size="15" fill="#00ff8c" opacity="0.26">&lt;</text><text x="0" y="135" font-family="monospace" font-size="15" fill="#00ff8c" opacity="0.17">カ</text>
+      <animateTransform attributeName="transform" attributeType="XML" type="translate"
+        from="224,-370" to="224,440" dur="4.37s" begin="-4.17s" repeatCount="indefinite" additive="sum"/>
+    </g>
+<g transform="translate(240,-20)">
+      <text x="0" y="0" font-family="monospace" font-size="15" fill="#c6ffe3" opacity="1">ク</text><text x="0" y="15" font-family="monospace" font-size="15" fill="#00ff8c" opacity="0.89">フ</text><text x="0" y="30" font-family="monospace" font-size="15" fill="#00ff8c" opacity="0.77">6</text><text x="0" y="45" font-family="monospace" font-size="15" fill="#00ff8c" opacity="0.66">ソ</text><text x="0" y="60" font-family="monospace" font-size="15" fill="#00ff8c" opacity="0.54">ラ</text><text x="0" y="75" font-family="monospace" font-size="15" fill="#00ff8c" opacity="0.42">/</text><text x="0" y="90" font-family="monospace" font-size="15" fill="#00ff8c" opacity="0.31">7</text><text x="0" y="105" font-family="monospace" font-size="15" fill="#00ff8c" opacity="0.19">&gt;</text>
+      <animateTransform attributeName="transform" attributeType="XML" type="translate"
+        from="240,-20" to="240,408" dur="5.09s" begin="-3.1s" repeatCount="indefinite" additive="sum"/>
+    </g>
+<g transform="translate(256,-450)">
+      <text x="0" y="0" font-family="monospace" font-size="15" fill="#c6ffe3" opacity="1">ア</text><text x="0" y="15" font-family="monospace" font-size="15" fill="#00ff8c" opacity="0.92">&gt;</text><text x="0" y="30" font-family="monospace" font-size="15" fill="#00ff8c" opacity="0.85">フ</text><text x="0" y="45" font-family="monospace" font-size="15" fill="#00ff8c" opacity="0.77">%</text><text x="0" y="60" font-family="monospace" font-size="15" fill="#00ff8c" opacity="0.69">@</text><text x="0" y="75" font-family="monospace" font-size="15" fill="#00ff8c" opacity="0.62">9</text><text x="0" y="90" font-family="monospace" font-size="15" fill="#00ff8c" opacity="0.54">ネ</text><text x="0" y="105" font-family="monospace" font-size="15" fill="#00ff8c" opacity="0.46">ト</text><text x="0" y="120" font-family="monospace" font-size="15" fill="#00ff8c" opacity="0.39">エ</text><text x="0" y="135" font-family="monospace" font-size="15" fill="#00ff8c" opacity="0.31">ト</text><text x="0" y="150" font-family="monospace" font-size="15" fill="#00ff8c" opacity="0.23">%</text><text x="0" y="165" font-family="monospace" font-size="15" fill="#00ff8c" opacity="0.16">ル</text>
+      <animateTransform attributeName="transform" attributeType="XML" type="translate"
+        from="256,-450" to="256,472" dur="4.94s" begin="-2.41s" repeatCount="indefinite" additive="sum"/>
+    </g>
+<g transform="translate(272,-407)">
+      <text x="0" y="0" font-family="monospace" font-size="15" fill="#c6ffe3" opacity="1">\</text><text x="0" y="15" font-family="monospace" font-size="15" fill="#00ff8c" opacity="0.82">6</text><text x="0" y="30" font-family="monospace" font-size="15" fill="#00ff8c" opacity="0.63">ラ</text><text x="0" y="45" font-family="monospace" font-size="15" fill="#00ff8c" opacity="0.45">7</text><text x="0" y="60" font-family="monospace" font-size="15" fill="#00ff8c" opacity="0.26">イ</text>
+      <animateTransform attributeName="transform" attributeType="XML" type="translate"
+        from="272,-407" to="272,360" dur="5.45s" begin="-4.45s" repeatCount="indefinite" additive="sum"/>
+    </g>
+<g transform="translate(288,-113)">
+      <text x="0" y="0" font-family="monospace" font-size="15" fill="#c6ffe3" opacity="1">ナ</text><text x="0" y="15" font-family="monospace" font-size="15" fill="#00ff8c" opacity="0.85">ヨ</text><text x="0" y="30" font-family="monospace" font-size="15" fill="#00ff8c" opacity="0.69">$</text><text x="0" y="45" font-family="monospace" font-size="15" fill="#00ff8c" opacity="0.54">ロ</text><text x="0" y="60" font-family="monospace" font-size="15" fill="#00ff8c" opacity="0.39">ミ</text><text x="0" y="75" font-family="monospace" font-size="15" fill="#00ff8c" opacity="0.23">/</text>
+      <animateTransform attributeName="transform" attributeType="XML" type="translate"
+        from="288,-113" to="288,376" dur="4.45s" begin="-2.45s" repeatCount="indefinite" additive="sum"/>
+    </g>
+<g transform="translate(304,-174)">
+      <text x="0" y="0" font-family="monospace" font-size="15" fill="#c6ffe3" opacity="1">3</text><text x="0" y="15" font-family="monospace" font-size="15" fill="#00ff8c" opacity="0.87">ネ</text><text x="0" y="30" font-family="monospace" font-size="15" fill="#00ff8c" opacity="0.74">ホ</text><text x="0" y="45" font-family="monospace" font-size="15" fill="#00ff8c" opacity="0.61">0</text><text x="0" y="60" font-family="monospace" font-size="15" fill="#00ff8c" opacity="0.47">ン</text><text x="0" y="75" font-family="monospace" font-size="15" fill="#00ff8c" opacity="0.34">フ</text><text x="0" y="90" font-family="monospace" font-size="15" fill="#00ff8c" opacity="0.21">ム</text>
+      <animateTransform attributeName="transform" attributeType="XML" type="translate"
+        from="304,-174" to="304,392" dur="5.55s" begin="-3.83s" repeatCount="indefinite" additive="sum"/>
+    </g>
+<g transform="translate(320,-219)">
+      <text x="0" y="0" font-family="monospace" font-size="15" fill="#c6ffe3" opacity="1">ハ</text><text x="0" y="15" font-family="monospace" font-size="15" fill="#00ff8c" opacity="0.92">キ</text><text x="0" y="30" font-family="monospace" font-size="15" fill="#00ff8c" opacity="0.85">レ</text><text x="0" y="45" font-family="monospace" font-size="15" fill="#00ff8c" opacity="0.77">リ</text><text x="0" y="60" font-family="monospace" font-size="15" fill="#00ff8c" opacity="0.69">テ</text><text x="0" y="75" font-family="monospace" font-size="15" fill="#00ff8c" opacity="0.62">レ</text><text x="0" y="90" font-family="monospace" font-size="15" fill="#00ff8c" opacity="0.54">テ</text><text x="0" y="105" font-family="monospace" font-size="15" fill="#00ff8c" opacity="0.46">オ</text><text x="0" y="120" font-family="monospace" font-size="15" fill="#00ff8c" opacity="0.39">セ</text><text x="0" y="135" font-family="monospace" font-size="15" fill="#00ff8c" opacity="0.31">3</text><text x="0" y="150" font-family="monospace" font-size="15" fill="#00ff8c" opacity="0.23">ヲ</text><text x="0" y="165" font-family="monospace" font-size="15" fill="#00ff8c" opacity="0.16">エ</text>
+      <animateTransform attributeName="transform" attributeType="XML" type="translate"
+        from="320,-219" to="320,472" dur="3.07s" begin="-0.69s" repeatCount="indefinite" additive="sum"/>
+    </g>
+<g transform="translate(336,-416)">
+      <text x="0" y="0" font-family="monospace" font-size="15" fill="#c6ffe3" opacity="1">セ</text><text x="0" y="15" font-family="monospace" font-size="15" fill="#00ff8c" opacity="0.87">ユ</text><text x="0" y="30" font-family="monospace" font-size="15" fill="#00ff8c" opacity="0.74">ト</text><text x="0" y="45" font-family="monospace" font-size="15" fill="#00ff8c" opacity="0.61">ニ</text><text x="0" y="60" font-family="monospace" font-size="15" fill="#00ff8c" opacity="0.47">0</text><text x="0" y="75" font-family="monospace" font-size="15" fill="#00ff8c" opacity="0.34">ヤ</text><text x="0" y="90" font-family="monospace" font-size="15" fill="#00ff8c" opacity="0.21">ツ</text>
+      <animateTransform attributeName="transform" attributeType="XML" type="translate"
+        from="336,-416" to="336,392" dur="6.13s" begin="-5.27s" repeatCount="indefinite" additive="sum"/>
+    </g>
+<g transform="translate(352,-383)">
+      <text x="0" y="0" font-family="monospace" font-size="15" fill="#c6ffe3" opacity="1">ル</text><text x="0" y="15" font-family="monospace" font-size="15" fill="#00ff8c" opacity="0.92">モ</text><text x="0" y="30" font-family="monospace" font-size="15" fill="#00ff8c" opacity="0.85">ト</text><text x="0" y="45" font-family="monospace" font-size="15" fill="#00ff8c" opacity="0.77">8</text><text x="0" y="60" font-family="monospace" font-size="15" fill="#00ff8c" opacity="0.69">モ</text><text x="0" y="75" font-family="monospace" font-size="15" fill="#00ff8c" opacity="0.62">9</text><text x="0" y="90" font-family="monospace" font-size="15" fill="#00ff8c" opacity="0.54">マ</text><text x="0" y="105" font-family="monospace" font-size="15" fill="#00ff8c" opacity="0.46">チ</text><text x="0" y="120" font-family="monospace" font-size="15" fill="#00ff8c" opacity="0.39">カ</text><text x="0" y="135" font-family="monospace" font-size="15" fill="#00ff8c" opacity="0.31">カ</text><text x="0" y="150" font-family="monospace" font-size="15" fill="#00ff8c" opacity="0.23">0</text><text x="0" y="165" font-family="monospace" font-size="15" fill="#00ff8c" opacity="0.16">ミ</text>
+      <animateTransform attributeName="transform" attributeType="XML" type="translate"
+        from="352,-383" to="352,472" dur="5.42s" begin="-4.78s" repeatCount="indefinite" additive="sum"/>
+    </g>
+<g transform="translate(368,-234)">
+      <text x="0" y="0" font-family="monospace" font-size="15" fill="#c6ffe3" opacity="1">エ</text><text x="0" y="15" font-family="monospace" font-size="15" fill="#00ff8c" opacity="0.9">1</text><text x="0" y="30" font-family="monospace" font-size="15" fill="#00ff8c" opacity="0.8">ン</text><text x="0" y="45" font-family="monospace" font-size="15" fill="#00ff8c" opacity="0.69">\</text><text x="0" y="60" font-family="monospace" font-size="15" fill="#00ff8c" opacity="0.59">ン</text><text x="0" y="75" font-family="monospace" font-size="15" fill="#00ff8c" opacity="0.49">カ</text><text x="0" y="90" font-family="monospace" font-size="15" fill="#00ff8c" opacity="0.39">エ</text><text x="0" y="105" font-family="monospace" font-size="15" fill="#00ff8c" opacity="0.28">ホ</text><text x="0" y="120" font-family="monospace" font-size="15" fill="#00ff8c" opacity="0.18">4</text>
+      <animateTransform attributeName="transform" attributeType="XML" type="translate"
+        from="368,-234" to="368,424" dur="4.2s" begin="-3.63s" repeatCount="indefinite" additive="sum"/>
+    </g>
+<g transform="translate(384,-41)">
+      <text x="0" y="0" font-family="monospace" font-size="15" fill="#c6ffe3" opacity="1">チ</text><text x="0" y="15" font-family="monospace" font-size="15" fill="#00ff8c" opacity="0.9">ラ</text><text x="0" y="30" font-family="monospace" font-size="15" fill="#00ff8c" opacity="0.8">ム</text><text x="0" y="45" font-family="monospace" font-size="15" fill="#00ff8c" opacity="0.69">イ</text><text x="0" y="60" font-family="monospace" font-size="15" fill="#00ff8c" opacity="0.59">ミ</text><text x="0" y="75" font-family="monospace" font-size="15" fill="#00ff8c" opacity="0.49">タ</text><text x="0" y="90" font-family="monospace" font-size="15" fill="#00ff8c" opacity="0.39">ニ</text><text x="0" y="105" font-family="monospace" font-size="15" fill="#00ff8c" opacity="0.28">メ</text><text x="0" y="120" font-family="monospace" font-size="15" fill="#00ff8c" opacity="0.18">ト</text>
+      <animateTransform attributeName="transform" attributeType="XML" type="translate"
+        from="384,-41" to="384,424" dur="5.96s" begin="-1.48s" repeatCount="indefinite" additive="sum"/>
+    </g>
+<g transform="translate(400,-224)">
+      <text x="0" y="0" font-family="monospace" font-size="15" fill="#c6ffe3" opacity="1">カ</text><text x="0" y="15" font-family="monospace" font-size="15" fill="#00ff8c" opacity="0.82">エ</text><text x="0" y="30" font-family="monospace" font-size="15" fill="#00ff8c" opacity="0.63">ン</text><text x="0" y="45" font-family="monospace" font-size="15" fill="#00ff8c" opacity="0.45">ラ</text><text x="0" y="60" font-family="monospace" font-size="15" fill="#00ff8c" opacity="0.26">@</text>
+      <animateTransform attributeName="transform" attributeType="XML" type="translate"
+        from="400,-224" to="400,360" dur="5.75s" begin="-4.92s" repeatCount="indefinite" additive="sum"/>
+    </g>
+<g transform="translate(416,-403)">
+      <text x="0" y="0" font-family="monospace" font-size="15" fill="#c6ffe3" opacity="1">ソ</text><text x="0" y="15" font-family="monospace" font-size="15" fill="#00ff8c" opacity="0.77">マ</text><text x="0" y="30" font-family="monospace" font-size="15" fill="#00ff8c" opacity="0.54">ヤ</text><text x="0" y="45" font-family="monospace" font-size="15" fill="#00ff8c" opacity="0.31">モ</text>
+      <animateTransform attributeName="transform" attributeType="XML" type="translate"
+        from="416,-403" to="416,344" dur="6.21s" begin="-5.27s" repeatCount="indefinite" additive="sum"/>
+    </g>
+<g transform="translate(432,-245)">
+      <text x="0" y="0" font-family="monospace" font-size="15" fill="#c6ffe3" opacity="1">オ</text><text x="0" y="15" font-family="monospace" font-size="15" fill="#00ff8c" opacity="0.87">ヘ</text><text x="0" y="30" font-family="monospace" font-size="15" fill="#00ff8c" opacity="0.74">ナ</text><text x="0" y="45" font-family="monospace" font-size="15" fill="#00ff8c" opacity="0.61">&gt;</text><text x="0" y="60" font-family="monospace" font-size="15" fill="#00ff8c" opacity="0.47">8</text><text x="0" y="75" font-family="monospace" font-size="15" fill="#00ff8c" opacity="0.34">8</text><text x="0" y="90" font-family="monospace" font-size="15" fill="#00ff8c" opacity="0.21">メ</text>
+      <animateTransform attributeName="transform" attributeType="XML" type="translate"
+        from="432,-245" to="432,392" dur="6.12s" begin="-1.01s" repeatCount="indefinite" additive="sum"/>
+    </g>
+<g transform="translate(448,-234)">
+      <text x="0" y="0" font-family="monospace" font-size="15" fill="#c6ffe3" opacity="1">8</text><text x="0" y="15" font-family="monospace" font-size="15" fill="#00ff8c" opacity="0.89">リ</text><text x="0" y="30" font-family="monospace" font-size="15" fill="#00ff8c" opacity="0.77">0</text><text x="0" y="45" font-family="monospace" font-size="15" fill="#00ff8c" opacity="0.66">3</text><text x="0" y="60" font-family="monospace" font-size="15" fill="#00ff8c" opacity="0.54">ヤ</text><text x="0" y="75" font-family="monospace" font-size="15" fill="#00ff8c" opacity="0.42">ク</text><text x="0" y="90" font-family="monospace" font-size="15" fill="#00ff8c" opacity="0.31">チ</text><text x="0" y="105" font-family="monospace" font-size="15" fill="#00ff8c" opacity="0.19">ヌ</text>
+      <animateTransform attributeName="transform" attributeType="XML" type="translate"
+        from="448,-234" to="448,408" dur="5.32s" begin="-3.89s" repeatCount="indefinite" additive="sum"/>
+    </g>
+<g transform="translate(464,-421)">
+      <text x="0" y="0" font-family="monospace" font-size="15" fill="#c6ffe3" opacity="1">5</text><text x="0" y="15" font-family="monospace" font-size="15" fill="#00ff8c" opacity="0.87">ノ</text><text x="0" y="30" font-family="monospace" font-size="15" fill="#00ff8c" opacity="0.74">エ</text><text x="0" y="45" font-family="monospace" font-size="15" fill="#00ff8c" opacity="0.61">エ</text><text x="0" y="60" font-family="monospace" font-size="15" fill="#00ff8c" opacity="0.47">レ</text><text x="0" y="75" font-family="monospace" font-size="15" fill="#00ff8c" opacity="0.34">モ</text><text x="0" y="90" font-family="monospace" font-size="15" fill="#00ff8c" opacity="0.21">ユ</text>
+      <animateTransform attributeName="transform" attributeType="XML" type="translate"
+        from="464,-421" to="464,392" dur="4.86s" begin="-2.64s" repeatCount="indefinite" additive="sum"/>
+    </g>
+<g transform="translate(480,-370)">
+      <text x="0" y="0" font-family="monospace" font-size="15" fill="#c6ffe3" opacity="1">#</text><text x="0" y="15" font-family="monospace" font-size="15" fill="#00ff8c" opacity="0.92">タ</text><text x="0" y="30" font-family="monospace" font-size="15" fill="#00ff8c" opacity="0.85">セ</text><text x="0" y="45" font-family="monospace" font-size="15" fill="#00ff8c" opacity="0.77">ロ</text><text x="0" y="60" font-family="monospace" font-size="15" fill="#00ff8c" opacity="0.69">セ</text><text x="0" y="75" font-family="monospace" font-size="15" fill="#00ff8c" opacity="0.62">1</text><text x="0" y="90" font-family="monospace" font-size="15" fill="#00ff8c" opacity="0.54">$</text><text x="0" y="105" font-family="monospace" font-size="15" fill="#00ff8c" opacity="0.46">ト</text><text x="0" y="120" font-family="monospace" font-size="15" fill="#00ff8c" opacity="0.39">ホ</text><text x="0" y="135" font-family="monospace" font-size="15" fill="#00ff8c" opacity="0.31">ア</text><text x="0" y="150" font-family="monospace" font-size="15" fill="#00ff8c" opacity="0.23">?</text><text x="0" y="165" font-family="monospace" font-size="15" fill="#00ff8c" opacity="0.16">%</text>
+      <animateTransform attributeName="transform" attributeType="XML" type="translate"
+        from="480,-370" to="480,472" dur="2.82s" begin="-1.43s" repeatCount="indefinite" additive="sum"/>
+    </g>
+<g transform="translate(496,-324)">
+      <text x="0" y="0" font-family="monospace" font-size="15" fill="#c6ffe3" opacity="1">ウ</text><text x="0" y="15" font-family="monospace" font-size="15" fill="#00ff8c" opacity="0.93">マ</text><text x="0" y="30" font-family="monospace" font-size="15" fill="#00ff8c" opacity="0.86">0</text><text x="0" y="45" font-family="monospace" font-size="15" fill="#00ff8c" opacity="0.79">レ</text><text x="0" y="60" font-family="monospace" font-size="15" fill="#00ff8c" opacity="0.72">ル</text><text x="0" y="75" font-family="monospace" font-size="15" fill="#00ff8c" opacity="0.65">ヨ</text><text x="0" y="90" font-family="monospace" font-size="15" fill="#00ff8c" opacity="0.58">ノ</text><text x="0" y="105" font-family="monospace" font-size="15" fill="#00ff8c" opacity="0.5">&gt;</text><text x="0" y="120" font-family="monospace" font-size="15" fill="#00ff8c" opacity="0.43">ナ</text><text x="0" y="135" font-family="monospace" font-size="15" fill="#00ff8c" opacity="0.36">ツ</text><text x="0" y="150" font-family="monospace" font-size="15" fill="#00ff8c" opacity="0.29">0</text><text x="0" y="165" font-family="monospace" font-size="15" fill="#00ff8c" opacity="0.22">3</text><text x="0" y="180" font-family="monospace" font-size="15" fill="#00ff8c" opacity="0.15">ノ</text>
+      <animateTransform attributeName="transform" attributeType="XML" type="translate"
+        from="496,-324" to="496,488" dur="4.86s" begin="-0.19s" repeatCount="indefinite" additive="sum"/>
+    </g>
+<g transform="translate(512,-315)">
+      <text x="0" y="0" font-family="monospace" font-size="15" fill="#c6ffe3" opacity="1">ネ</text><text x="0" y="15" font-family="monospace" font-size="15" fill="#00ff8c" opacity="0.87">メ</text><text x="0" y="30" font-family="monospace" font-size="15" fill="#00ff8c" opacity="0.74">ノ</text><text x="0" y="45" font-family="monospace" font-size="15" fill="#00ff8c" opacity="0.61">&gt;</text><text x="0" y="60" font-family="monospace" font-size="15" fill="#00ff8c" opacity="0.47">6</text><text x="0" y="75" font-family="monospace" font-size="15" fill="#00ff8c" opacity="0.34">&gt;</text><text x="0" y="90" font-family="monospace" font-size="15" fill="#00ff8c" opacity="0.21">セ</text>
+      <animateTransform attributeName="transform" attributeType="XML" type="translate"
+        from="512,-315" to="512,392" dur="4.14s" begin="-2.78s" repeatCount="indefinite" additive="sum"/>
+    </g>
+<g transform="translate(528,-216)">
+      <text x="0" y="0" font-family="monospace" font-size="15" fill="#c6ffe3" opacity="1">カ</text><text x="0" y="15" font-family="monospace" font-size="15" fill="#00ff8c" opacity="0.77">セ</text><text x="0" y="30" font-family="monospace" font-size="15" fill="#00ff8c" opacity="0.54">ラ</text><text x="0" y="45" font-family="monospace" font-size="15" fill="#00ff8c" opacity="0.31">ツ</text>
+      <animateTransform attributeName="transform" attributeType="XML" type="translate"
+        from="528,-216" to="528,344" dur="5.02s" begin="-2.83s" repeatCount="indefinite" additive="sum"/>
+    </g>
+<g transform="translate(544,-315)">
+      <text x="0" y="0" font-family="monospace" font-size="15" fill="#c6ffe3" opacity="1">セ</text><text x="0" y="15" font-family="monospace" font-size="15" fill="#00ff8c" opacity="0.92">%</text><text x="0" y="30" font-family="monospace" font-size="15" fill="#00ff8c" opacity="0.85">ト</text><text x="0" y="45" font-family="monospace" font-size="15" fill="#00ff8c" opacity="0.77">フ</text><text x="0" y="60" font-family="monospace" font-size="15" fill="#00ff8c" opacity="0.69">ヌ</text><text x="0" y="75" font-family="monospace" font-size="15" fill="#00ff8c" opacity="0.62">ソ</text><text x="0" y="90" font-family="monospace" font-size="15" fill="#00ff8c" opacity="0.54">ム</text><text x="0" y="105" font-family="monospace" font-size="15" fill="#00ff8c" opacity="0.46">@</text><text x="0" y="120" font-family="monospace" font-size="15" fill="#00ff8c" opacity="0.39">ラ</text><text x="0" y="135" font-family="monospace" font-size="15" fill="#00ff8c" opacity="0.31">3</text><text x="0" y="150" font-family="monospace" font-size="15" fill="#00ff8c" opacity="0.23">ネ</text><text x="0" y="165" font-family="monospace" font-size="15" fill="#00ff8c" opacity="0.16">ワ</text>
+      <animateTransform attributeName="transform" attributeType="XML" type="translate"
+        from="544,-315" to="544,472" dur="3.12s" begin="-1.09s" repeatCount="indefinite" additive="sum"/>
+    </g>
+<g transform="translate(560,-446)">
+      <text x="0" y="0" font-family="monospace" font-size="15" fill="#c6ffe3" opacity="1">&gt;</text><text x="0" y="15" font-family="monospace" font-size="15" fill="#00ff8c" opacity="0.92">0</text><text x="0" y="30" font-family="monospace" font-size="15" fill="#00ff8c" opacity="0.85">カ</text><text x="0" y="45" font-family="monospace" font-size="15" fill="#00ff8c" opacity="0.77">?</text><text x="0" y="60" font-family="monospace" font-size="15" fill="#00ff8c" opacity="0.69">%</text><text x="0" y="75" font-family="monospace" font-size="15" fill="#00ff8c" opacity="0.62">イ</text><text x="0" y="90" font-family="monospace" font-size="15" fill="#00ff8c" opacity="0.54">ナ</text><text x="0" y="105" font-family="monospace" font-size="15" fill="#00ff8c" opacity="0.46">ア</text><text x="0" y="120" font-family="monospace" font-size="15" fill="#00ff8c" opacity="0.39">%</text><text x="0" y="135" font-family="monospace" font-size="15" fill="#00ff8c" opacity="0.31">カ</text><text x="0" y="150" font-family="monospace" font-size="15" fill="#00ff8c" opacity="0.23">5</text><text x="0" y="165" font-family="monospace" font-size="15" fill="#00ff8c" opacity="0.16">リ</text>
+      <animateTransform attributeName="transform" attributeType="XML" type="translate"
+        from="560,-446" to="560,472" dur="5.2s" begin="-2.88s" repeatCount="indefinite" additive="sum"/>
+    </g>
+<g transform="translate(576,-311)">
+      <text x="0" y="0" font-family="monospace" font-size="15" fill="#c6ffe3" opacity="1">ハ</text><text x="0" y="15" font-family="monospace" font-size="15" fill="#00ff8c" opacity="0.85">ツ</text><text x="0" y="30" font-family="monospace" font-size="15" fill="#00ff8c" opacity="0.69">1</text><text x="0" y="45" font-family="monospace" font-size="15" fill="#00ff8c" opacity="0.54">ヲ</text><text x="0" y="60" font-family="monospace" font-size="15" fill="#00ff8c" opacity="0.39">#</text><text x="0" y="75" font-family="monospace" font-size="15" fill="#00ff8c" opacity="0.23">ナ</text>
+      <animateTransform attributeName="transform" attributeType="XML" type="translate"
+        from="576,-311" to="576,376" dur="3.7s" begin="-0.78s" repeatCount="indefinite" additive="sum"/>
+    </g>
+<g transform="translate(592,-200)">
+      <text x="0" y="0" font-family="monospace" font-size="15" fill="#c6ffe3" opacity="1">エ</text><text x="0" y="15" font-family="monospace" font-size="15" fill="#00ff8c" opacity="0.92">ウ</text><text x="0" y="30" font-family="monospace" font-size="15" fill="#00ff8c" opacity="0.85">ヲ</text><text x="0" y="45" font-family="monospace" font-size="15" fill="#00ff8c" opacity="0.77">ミ</text><text x="0" y="60" font-family="monospace" font-size="15" fill="#00ff8c" opacity="0.69">@</text><text x="0" y="75" font-family="monospace" font-size="15" fill="#00ff8c" opacity="0.62">ニ</text><text x="0" y="90" font-family="monospace" font-size="15" fill="#00ff8c" opacity="0.54">ネ</text><text x="0" y="105" font-family="monospace" font-size="15" fill="#00ff8c" opacity="0.46">オ</text><text x="0" y="120" font-family="monospace" font-size="15" fill="#00ff8c" opacity="0.39">ハ</text><text x="0" y="135" font-family="monospace" font-size="15" fill="#00ff8c" opacity="0.31">7</text><text x="0" y="150" font-family="monospace" font-size="15" fill="#00ff8c" opacity="0.23">イ</text><text x="0" y="165" font-family="monospace" font-size="15" fill="#00ff8c" opacity="0.16">ヲ</text>
+      <animateTransform attributeName="transform" attributeType="XML" type="translate"
+        from="592,-200" to="592,472" dur="3.58s" begin="-3.25s" repeatCount="indefinite" additive="sum"/>
+    </g>
+<g transform="translate(608,-368)">
+      <text x="0" y="0" font-family="monospace" font-size="15" fill="#c6ffe3" opacity="1">ミ</text><text x="0" y="15" font-family="monospace" font-size="15" fill="#00ff8c" opacity="0.89">リ</text><text x="0" y="30" font-family="monospace" font-size="15" fill="#00ff8c" opacity="0.77">オ</text><text x="0" y="45" font-family="monospace" font-size="15" fill="#00ff8c" opacity="0.66">ア</text><text x="0" y="60" font-family="monospace" font-size="15" fill="#00ff8c" opacity="0.54">セ</text><text x="0" y="75" font-family="monospace" font-size="15" fill="#00ff8c" opacity="0.42">?</text><text x="0" y="90" font-family="monospace" font-size="15" fill="#00ff8c" opacity="0.31">%</text><text x="0" y="105" font-family="monospace" font-size="15" fill="#00ff8c" opacity="0.19">2</text>
+      <animateTransform attributeName="transform" attributeType="XML" type="translate"
+        from="608,-368" to="608,408" dur="5.49s" begin="-3.03s" repeatCount="indefinite" additive="sum"/>
+    </g>
+<g transform="translate(624,-171)">
+      <text x="0" y="0" font-family="monospace" font-size="15" fill="#c6ffe3" opacity="1">リ</text><text x="0" y="15" font-family="monospace" font-size="15" fill="#00ff8c" opacity="0.85">ク</text><text x="0" y="30" font-family="monospace" font-size="15" fill="#00ff8c" opacity="0.69">ミ</text><text x="0" y="45" font-family="monospace" font-size="15" fill="#00ff8c" opacity="0.54">イ</text><text x="0" y="60" font-family="monospace" font-size="15" fill="#00ff8c" opacity="0.39">ネ</text><text x="0" y="75" font-family="monospace" font-size="15" fill="#00ff8c" opacity="0.23">ネ</text>
+      <animateTransform attributeName="transform" attributeType="XML" type="translate"
+        from="624,-171" to="624,376" dur="2.74s" begin="-1.01s" repeatCount="indefinite" additive="sum"/>
+    </g>
+<g transform="translate(640,-43)">
+      <text x="0" y="0" font-family="monospace" font-size="15" fill="#c6ffe3" opacity="1">ヒ</text><text x="0" y="15" font-family="monospace" font-size="15" fill="#00ff8c" opacity="0.9">ツ</text><text x="0" y="30" font-family="monospace" font-size="15" fill="#00ff8c" opacity="0.8">1</text><text x="0" y="45" font-family="monospace" font-size="15" fill="#00ff8c" opacity="0.69">ト</text><text x="0" y="60" font-family="monospace" font-size="15" fill="#00ff8c" opacity="0.59">0</text><text x="0" y="75" font-family="monospace" font-size="15" fill="#00ff8c" opacity="0.49">カ</text><text x="0" y="90" font-family="monospace" font-size="15" fill="#00ff8c" opacity="0.39">ヒ</text><text x="0" y="105" font-family="monospace" font-size="15" fill="#00ff8c" opacity="0.28">7</text><text x="0" y="120" font-family="monospace" font-size="15" fill="#00ff8c" opacity="0.18">リ</text>
+      <animateTransform attributeName="transform" attributeType="XML" type="translate"
+        from="640,-43" to="640,424" dur="6.39s" begin="-0.25s" repeatCount="indefinite" additive="sum"/>
+    </g>
+<g transform="translate(656,-133)">
+      <text x="0" y="0" font-family="monospace" font-size="15" fill="#c6ffe3" opacity="1">ト</text><text x="0" y="15" font-family="monospace" font-size="15" fill="#00ff8c" opacity="0.91">$</text><text x="0" y="30" font-family="monospace" font-size="15" fill="#00ff8c" opacity="0.82">ソ</text><text x="0" y="45" font-family="monospace" font-size="15" fill="#00ff8c" opacity="0.72">\</text><text x="0" y="60" font-family="monospace" font-size="15" fill="#00ff8c" opacity="0.63">9</text><text x="0" y="75" font-family="monospace" font-size="15" fill="#00ff8c" opacity="0.54">9</text><text x="0" y="90" font-family="monospace" font-size="15" fill="#00ff8c" opacity="0.45">タ</text><text x="0" y="105" font-family="monospace" font-size="15" fill="#00ff8c" opacity="0.36">%</text><text x="0" y="120" font-family="monospace" font-size="15" fill="#00ff8c" opacity="0.26">マ</text><text x="0" y="135" font-family="monospace" font-size="15" fill="#00ff8c" opacity="0.17">キ</text>
+      <animateTransform attributeName="transform" attributeType="XML" type="translate"
+        from="656,-133" to="656,440" dur="5.52s" begin="-5.11s" repeatCount="indefinite" additive="sum"/>
+    </g>
+<g transform="translate(672,-73)">
+      <text x="0" y="0" font-family="monospace" font-size="15" fill="#c6ffe3" opacity="1">マ</text><text x="0" y="15" font-family="monospace" font-size="15" fill="#00ff8c" opacity="0.85">9</text><text x="0" y="30" font-family="monospace" font-size="15" fill="#00ff8c" opacity="0.69">0</text><text x="0" y="45" font-family="monospace" font-size="15" fill="#00ff8c" opacity="0.54">$</text><text x="0" y="60" font-family="monospace" font-size="15" fill="#00ff8c" opacity="0.39">5</text><text x="0" y="75" font-family="monospace" font-size="15" fill="#00ff8c" opacity="0.23">9</text>
+      <animateTransform attributeName="transform" attributeType="XML" type="translate"
+        from="672,-73" to="672,376" dur="6.21s" begin="-4.86s" repeatCount="indefinite" additive="sum"/>
+    </g>
+<g transform="translate(688,-314)">
+      <text x="0" y="0" font-family="monospace" font-size="15" fill="#c6ffe3" opacity="1">ヘ</text><text x="0" y="15" font-family="monospace" font-size="15" fill="#00ff8c" opacity="0.87">$</text><text x="0" y="30" font-family="monospace" font-size="15" fill="#00ff8c" opacity="0.74">ネ</text><text x="0" y="45" font-family="monospace" font-size="15" fill="#00ff8c" opacity="0.61">#</text><text x="0" y="60" font-family="monospace" font-size="15" fill="#00ff8c" opacity="0.47">モ</text><text x="0" y="75" font-family="monospace" font-size="15" fill="#00ff8c" opacity="0.34">テ</text><text x="0" y="90" font-family="monospace" font-size="15" fill="#00ff8c" opacity="0.21">チ</text>
+      <animateTransform attributeName="transform" attributeType="XML" type="translate"
+        from="688,-314" to="688,392" dur="3.22s" begin="-2.26s" repeatCount="indefinite" additive="sum"/>
+    </g>
+<g transform="translate(704,-271)">
+      <text x="0" y="0" font-family="monospace" font-size="15" fill="#c6ffe3" opacity="1">テ</text><text x="0" y="15" font-family="monospace" font-size="15" fill="#00ff8c" opacity="0.92">テ</text><text x="0" y="30" font-family="monospace" font-size="15" fill="#00ff8c" opacity="0.83">キ</text><text x="0" y="45" font-family="monospace" font-size="15" fill="#00ff8c" opacity="0.75">0</text><text x="0" y="60" font-family="monospace" font-size="15" fill="#00ff8c" opacity="0.67">チ</text><text x="0" y="75" font-family="monospace" font-size="15" fill="#00ff8c" opacity="0.58">ホ</text><text x="0" y="90" font-family="monospace" font-size="15" fill="#00ff8c" opacity="0.5">ハ</text><text x="0" y="105" font-family="monospace" font-size="15" fill="#00ff8c" opacity="0.41">ニ</text><text x="0" y="120" font-family="monospace" font-size="15" fill="#00ff8c" opacity="0.33">$</text><text x="0" y="135" font-family="monospace" font-size="15" fill="#00ff8c" opacity="0.25">セ</text><text x="0" y="150" font-family="monospace" font-size="15" fill="#00ff8c" opacity="0.16">/</text>
+      <animateTransform attributeName="transform" attributeType="XML" type="translate"
+        from="704,-271" to="704,456" dur="3.79s" begin="-3.01s" repeatCount="indefinite" additive="sum"/>
+    </g>
+<g transform="translate(720,-271)">
+      <text x="0" y="0" font-family="monospace" font-size="15" fill="#c6ffe3" opacity="1">\</text><text x="0" y="15" font-family="monospace" font-size="15" fill="#00ff8c" opacity="0.89">@</text><text x="0" y="30" font-family="monospace" font-size="15" fill="#00ff8c" opacity="0.77">ラ</text><text x="0" y="45" font-family="monospace" font-size="15" fill="#00ff8c" opacity="0.66">ハ</text><text x="0" y="60" font-family="monospace" font-size="15" fill="#00ff8c" opacity="0.54">?</text><text x="0" y="75" font-family="monospace" font-size="15" fill="#00ff8c" opacity="0.42">キ</text><text x="0" y="90" font-family="monospace" font-size="15" fill="#00ff8c" opacity="0.31">ア</text><text x="0" y="105" font-family="monospace" font-size="15" fill="#00ff8c" opacity="0.19">%</text>
+      <animateTransform attributeName="transform" attributeType="XML" type="translate"
+        from="720,-271" to="720,408" dur="5.1s" begin="-2.04s" repeatCount="indefinite" additive="sum"/>
+    </g>
+<g transform="translate(736,-359)">
+      <text x="0" y="0" font-family="monospace" font-size="15" fill="#c6ffe3" opacity="1">ネ</text><text x="0" y="15" font-family="monospace" font-size="15" fill="#00ff8c" opacity="0.89">カ</text><text x="0" y="30" font-family="monospace" font-size="15" fill="#00ff8c" opacity="0.77">ロ</text><text x="0" y="45" font-family="monospace" font-size="15" fill="#00ff8c" opacity="0.66">ミ</text><text x="0" y="60" font-family="monospace" font-size="15" fill="#00ff8c" opacity="0.54">ヒ</text><text x="0" y="75" font-family="monospace" font-size="15" fill="#00ff8c" opacity="0.42">4</text><text x="0" y="90" font-family="monospace" font-size="15" fill="#00ff8c" opacity="0.31">8</text><text x="0" y="105" font-family="monospace" font-size="15" fill="#00ff8c" opacity="0.19">ノ</text>
+      <animateTransform attributeName="transform" attributeType="XML" type="translate"
+        from="736,-359" to="736,408" dur="4.86s" begin="-4.78s" repeatCount="indefinite" additive="sum"/>
+    </g>
+<g transform="translate(752,-140)">
+      <text x="0" y="0" font-family="monospace" font-size="15" fill="#c6ffe3" opacity="1">&amp;</text><text x="0" y="15" font-family="monospace" font-size="15" fill="#00ff8c" opacity="0.91">ル</text><text x="0" y="30" font-family="monospace" font-size="15" fill="#00ff8c" opacity="0.82">チ</text><text x="0" y="45" font-family="monospace" font-size="15" fill="#00ff8c" opacity="0.72">ナ</text><text x="0" y="60" font-family="monospace" font-size="15" fill="#00ff8c" opacity="0.63">ネ</text><text x="0" y="75" font-family="monospace" font-size="15" fill="#00ff8c" opacity="0.54">3</text><text x="0" y="90" font-family="monospace" font-size="15" fill="#00ff8c" opacity="0.45">ミ</text><text x="0" y="105" font-family="monospace" font-size="15" fill="#00ff8c" opacity="0.36">オ</text><text x="0" y="120" font-family="monospace" font-size="15" fill="#00ff8c" opacity="0.26">ヨ</text><text x="0" y="135" font-family="monospace" font-size="15" fill="#00ff8c" opacity="0.17">&gt;</text>
+      <animateTransform attributeName="transform" attributeType="XML" type="translate"
+        from="752,-140" to="752,440" dur="6.44s" begin="-0.74s" repeatCount="indefinite" additive="sum"/>
+    </g>
+<g transform="translate(768,-99)">
+      <text x="0" y="0" font-family="monospace" font-size="15" fill="#c6ffe3" opacity="1">0</text><text x="0" y="15" font-family="monospace" font-size="15" fill="#00ff8c" opacity="0.92">チ</text><text x="0" y="30" font-family="monospace" font-size="15" fill="#00ff8c" opacity="0.85">フ</text><text x="0" y="45" font-family="monospace" font-size="15" fill="#00ff8c" opacity="0.77">ミ</text><text x="0" y="60" font-family="monospace" font-size="15" fill="#00ff8c" opacity="0.69">セ</text><text x="0" y="75" font-family="monospace" font-size="15" fill="#00ff8c" opacity="0.62">?</text><text x="0" y="90" font-family="monospace" font-size="15" fill="#00ff8c" opacity="0.54">0</text><text x="0" y="105" font-family="monospace" font-size="15" fill="#00ff8c" opacity="0.46">&lt;</text><text x="0" y="120" font-family="monospace" font-size="15" fill="#00ff8c" opacity="0.39">ハ</text><text x="0" y="135" font-family="monospace" font-size="15" fill="#00ff8c" opacity="0.31">ワ</text><text x="0" y="150" font-family="monospace" font-size="15" fill="#00ff8c" opacity="0.23">ノ</text><text x="0" y="165" font-family="monospace" font-size="15" fill="#00ff8c" opacity="0.16">0</text>
+      <animateTransform attributeName="transform" attributeType="XML" type="translate"
+        from="768,-99" to="768,472" dur="5.41s" begin="-4.01s" repeatCount="indefinite" additive="sum"/>
+    </g>
+<g transform="translate(784,-82)">
+      <text x="0" y="0" font-family="monospace" font-size="15" fill="#c6ffe3" opacity="1">0</text><text x="0" y="15" font-family="monospace" font-size="15" fill="#00ff8c" opacity="0.82">マ</text><text x="0" y="30" font-family="monospace" font-size="15" fill="#00ff8c" opacity="0.63">ノ</text><text x="0" y="45" font-family="monospace" font-size="15" fill="#00ff8c" opacity="0.45">ホ</text><text x="0" y="60" font-family="monospace" font-size="15" fill="#00ff8c" opacity="0.26">2</text>
+      <animateTransform attributeName="transform" attributeType="XML" type="translate"
+        from="784,-82" to="784,360" dur="6.11s" begin="-3.1s" repeatCount="indefinite" additive="sum"/>
+    </g>
+<g transform="translate(800,-167)">
+      <text x="0" y="0" font-family="monospace" font-size="15" fill="#c6ffe3" opacity="1">?</text><text x="0" y="15" font-family="monospace" font-size="15" fill="#00ff8c" opacity="0.89">ヘ</text><text x="0" y="30" font-family="monospace" font-size="15" fill="#00ff8c" opacity="0.77">1</text><text x="0" y="45" font-family="monospace" font-size="15" fill="#00ff8c" opacity="0.66">5</text><text x="0" y="60" font-family="monospace" font-size="15" fill="#00ff8c" opacity="0.54">&amp;</text><text x="0" y="75" font-family="monospace" font-size="15" fill="#00ff8c" opacity="0.42">タ</text><text x="0" y="90" font-family="monospace" font-size="15" fill="#00ff8c" opacity="0.31">ワ</text><text x="0" y="105" font-family="monospace" font-size="15" fill="#00ff8c" opacity="0.19">ル</text>
+      <animateTransform attributeName="transform" attributeType="XML" type="translate"
+        from="800,-167" to="800,408" dur="3.1s" begin="-1.3s" repeatCount="indefinite" additive="sum"/>
+    </g>
+<g transform="translate(816,-243)">
+      <text x="0" y="0" font-family="monospace" font-size="15" fill="#c6ffe3" opacity="1">ヌ</text><text x="0" y="15" font-family="monospace" font-size="15" fill="#00ff8c" opacity="0.89">ツ</text><text x="0" y="30" font-family="monospace" font-size="15" fill="#00ff8c" opacity="0.77">ミ</text><text x="0" y="45" font-family="monospace" font-size="15" fill="#00ff8c" opacity="0.66">8</text><text x="0" y="60" font-family="monospace" font-size="15" fill="#00ff8c" opacity="0.54">レ</text><text x="0" y="75" font-family="monospace" font-size="15" fill="#00ff8c" opacity="0.42">ロ</text><text x="0" y="90" font-family="monospace" font-size="15" fill="#00ff8c" opacity="0.31">ン</text><text x="0" y="105" font-family="monospace" font-size="15" fill="#00ff8c" opacity="0.19">ノ</text>
+      <animateTransform attributeName="transform" attributeType="XML" type="translate"
+        from="816,-243" to="816,408" dur="4.74s" begin="-0.0s" repeatCount="indefinite" additive="sum"/>
+    </g>
+<g transform="translate(832,-224)">
+      <text x="0" y="0" font-family="monospace" font-size="15" fill="#c6ffe3" opacity="1">モ</text><text x="0" y="15" font-family="monospace" font-size="15" fill="#00ff8c" opacity="0.92">8</text><text x="0" y="30" font-family="monospace" font-size="15" fill="#00ff8c" opacity="0.83">&amp;</text><text x="0" y="45" font-family="monospace" font-size="15" fill="#00ff8c" opacity="0.75">/</text><text x="0" y="60" font-family="monospace" font-size="15" fill="#00ff8c" opacity="0.67">8</text><text x="0" y="75" font-family="monospace" font-size="15" fill="#00ff8c" opacity="0.58">5</text><text x="0" y="90" font-family="monospace" font-size="15" fill="#00ff8c" opacity="0.5">ソ</text><text x="0" y="105" font-family="monospace" font-size="15" fill="#00ff8c" opacity="0.41">0</text><text x="0" y="120" font-family="monospace" font-size="15" fill="#00ff8c" opacity="0.33">ウ</text><text x="0" y="135" font-family="monospace" font-size="15" fill="#00ff8c" opacity="0.25">ヌ</text><text x="0" y="150" font-family="monospace" font-size="15" fill="#00ff8c" opacity="0.16">ユ</text>
+      <animateTransform attributeName="transform" attributeType="XML" type="translate"
+        from="832,-224" to="832,456" dur="4.32s" begin="-0.92s" repeatCount="indefinite" additive="sum"/>
+    </g>
+<g transform="translate(848,-279)">
+      <text x="0" y="0" font-family="monospace" font-size="15" fill="#c6ffe3" opacity="1">ト</text><text x="0" y="15" font-family="monospace" font-size="15" fill="#00ff8c" opacity="0.93">1</text><text x="0" y="30" font-family="monospace" font-size="15" fill="#00ff8c" opacity="0.86">ネ</text><text x="0" y="45" font-family="monospace" font-size="15" fill="#00ff8c" opacity="0.79">テ</text><text x="0" y="60" font-family="monospace" font-size="15" fill="#00ff8c" opacity="0.72">9</text><text x="0" y="75" font-family="monospace" font-size="15" fill="#00ff8c" opacity="0.65">チ</text><text x="0" y="90" font-family="monospace" font-size="15" fill="#00ff8c" opacity="0.58">ク</text><text x="0" y="105" font-family="monospace" font-size="15" fill="#00ff8c" opacity="0.5">キ</text><text x="0" y="120" font-family="monospace" font-size="15" fill="#00ff8c" opacity="0.43">ネ</text><text x="0" y="135" font-family="monospace" font-size="15" fill="#00ff8c" opacity="0.36">ト</text><text x="0" y="150" font-family="monospace" font-size="15" fill="#00ff8c" opacity="0.29">\</text><text x="0" y="165" font-family="monospace" font-size="15" fill="#00ff8c" opacity="0.22">モ</text><text x="0" y="180" font-family="monospace" font-size="15" fill="#00ff8c" opacity="0.15">ワ</text>
+      <animateTransform attributeName="transform" attributeType="XML" type="translate"
+        from="848,-279" to="848,488" dur="2.96s" begin="-2.82s" repeatCount="indefinite" additive="sum"/>
+    </g>
+<g transform="translate(864,-217)">
+      <text x="0" y="0" font-family="monospace" font-size="15" fill="#c6ffe3" opacity="1">チ</text><text x="0" y="15" font-family="monospace" font-size="15" fill="#00ff8c" opacity="0.82">3</text><text x="0" y="30" font-family="monospace" font-size="15" fill="#00ff8c" opacity="0.63">2</text><text x="0" y="45" font-family="monospace" font-size="15" fill="#00ff8c" opacity="0.45">ヘ</text><text x="0" y="60" font-family="monospace" font-size="15" fill="#00ff8c" opacity="0.26">ヤ</text>
+      <animateTransform attributeName="transform" attributeType="XML" type="translate"
+        from="864,-217" to="864,360" dur="4.22s" begin="-2.66s" repeatCount="indefinite" additive="sum"/>
+    </g>
+<g transform="translate(880,-326)">
+      <text x="0" y="0" font-family="monospace" font-size="15" fill="#c6ffe3" opacity="1">&amp;</text><text x="0" y="15" font-family="monospace" font-size="15" fill="#00ff8c" opacity="0.91">6</text><text x="0" y="30" font-family="monospace" font-size="15" fill="#00ff8c" opacity="0.82">$</text><text x="0" y="45" font-family="monospace" font-size="15" fill="#00ff8c" opacity="0.72">7</text><text x="0" y="60" font-family="monospace" font-size="15" fill="#00ff8c" opacity="0.63">%</text><text x="0" y="75" font-family="monospace" font-size="15" fill="#00ff8c" opacity="0.54">カ</text><text x="0" y="90" font-family="monospace" font-size="15" fill="#00ff8c" opacity="0.45">7</text><text x="0" y="105" font-family="monospace" font-size="15" fill="#00ff8c" opacity="0.36">ミ</text><text x="0" y="120" font-family="monospace" font-size="15" fill="#00ff8c" opacity="0.26">テ</text><text x="0" y="135" font-family="monospace" font-size="15" fill="#00ff8c" opacity="0.17">タ</text>
+      <animateTransform attributeName="transform" attributeType="XML" type="translate"
+        from="880,-326" to="880,440" dur="3.18s" begin="-2.19s" repeatCount="indefinite" additive="sum"/>
+    </g>
+<g transform="translate(896,-213)">
+      <text x="0" y="0" font-family="monospace" font-size="15" fill="#c6ffe3" opacity="1">#</text><text x="0" y="15" font-family="monospace" font-size="15" fill="#00ff8c" opacity="0.92">ア</text><text x="0" y="30" font-family="monospace" font-size="15" fill="#00ff8c" opacity="0.85">メ</text><text x="0" y="45" font-family="monospace" font-size="15" fill="#00ff8c" opacity="0.77">イ</text><text x="0" y="60" font-family="monospace" font-size="15" fill="#00ff8c" opacity="0.69">9</text><text x="0" y="75" font-family="monospace" font-size="15" fill="#00ff8c" opacity="0.62">メ</text><text x="0" y="90" font-family="monospace" font-size="15" fill="#00ff8c" opacity="0.54">0</text><text x="0" y="105" font-family="monospace" font-size="15" fill="#00ff8c" opacity="0.46">ヨ</text><text x="0" y="120" font-family="monospace" font-size="15" fill="#00ff8c" opacity="0.39">リ</text><text x="0" y="135" font-family="monospace" font-size="15" fill="#00ff8c" opacity="0.31">ロ</text><text x="0" y="150" font-family="monospace" font-size="15" fill="#00ff8c" opacity="0.23">ノ</text><text x="0" y="165" font-family="monospace" font-size="15" fill="#00ff8c" opacity="0.16">?</text>
+      <animateTransform attributeName="transform" attributeType="XML" type="translate"
+        from="896,-213" to="896,472" dur="2.8s" begin="-0.7s" repeatCount="indefinite" additive="sum"/>
+    </g>
+<g transform="translate(912,-137)">
+      <text x="0" y="0" font-family="monospace" font-size="15" fill="#c6ffe3" opacity="1">ミ</text><text x="0" y="15" font-family="monospace" font-size="15" fill="#00ff8c" opacity="0.92">@</text><text x="0" y="30" font-family="monospace" font-size="15" fill="#00ff8c" opacity="0.83">&lt;</text><text x="0" y="45" font-family="monospace" font-size="15" fill="#00ff8c" opacity="0.75">リ</text><text x="0" y="60" font-family="monospace" font-size="15" fill="#00ff8c" opacity="0.67">ム</text><text x="0" y="75" font-family="monospace" font-size="15" fill="#00ff8c" opacity="0.58">&amp;</text><text x="0" y="90" font-family="monospace" font-size="15" fill="#00ff8c" opacity="0.5">ソ</text><text x="0" y="105" font-family="monospace" font-size="15" fill="#00ff8c" opacity="0.41">5</text><text x="0" y="120" font-family="monospace" font-size="15" fill="#00ff8c" opacity="0.33">$</text><text x="0" y="135" font-family="monospace" font-size="15" fill="#00ff8c" opacity="0.25">モ</text><text x="0" y="150" font-family="monospace" font-size="15" fill="#00ff8c" opacity="0.16">ム</text>
+      <animateTransform attributeName="transform" attributeType="XML" type="translate"
+        from="912,-137" to="912,456" dur="5.78s" begin="-5.16s" repeatCount="indefinite" additive="sum"/>
+    </g>
+<g transform="translate(928,-66)">
+      <text x="0" y="0" font-family="monospace" font-size="15" fill="#c6ffe3" opacity="1">7</text><text x="0" y="15" font-family="monospace" font-size="15" fill="#00ff8c" opacity="0.89">7</text><text x="0" y="30" font-family="monospace" font-size="15" fill="#00ff8c" opacity="0.77">ヨ</text><text x="0" y="45" font-family="monospace" font-size="15" fill="#00ff8c" opacity="0.66">ヤ</text><text x="0" y="60" font-family="monospace" font-size="15" fill="#00ff8c" opacity="0.54">ヲ</text><text x="0" y="75" font-family="monospace" font-size="15" fill="#00ff8c" opacity="0.42">ト</text><text x="0" y="90" font-family="monospace" font-size="15" fill="#00ff8c" opacity="0.31">ニ</text><text x="0" y="105" font-family="monospace" font-size="15" fill="#00ff8c" opacity="0.19">ム</text>
+      <animateTransform attributeName="transform" attributeType="XML" type="translate"
+        from="928,-66" to="928,408" dur="3.56s" begin="-2.27s" repeatCount="indefinite" additive="sum"/>
+    </g>
+<g transform="translate(944,-85)">
+      <text x="0" y="0" font-family="monospace" font-size="15" fill="#c6ffe3" opacity="1">ノ</text><text x="0" y="15" font-family="monospace" font-size="15" fill="#00ff8c" opacity="0.82">&amp;</text><text x="0" y="30" font-family="monospace" font-size="15" fill="#00ff8c" opacity="0.63">ラ</text><text x="0" y="45" font-family="monospace" font-size="15" fill="#00ff8c" opacity="0.45">ウ</text><text x="0" y="60" font-family="monospace" font-size="15" fill="#00ff8c" opacity="0.26">イ</text>
+      <animateTransform attributeName="transform" attributeType="XML" type="translate"
+        from="944,-85" to="944,360" dur="3.71s" begin="-1.01s" repeatCount="indefinite" additive="sum"/>
+    </g>
+<g transform="translate(960,-332)">
+      <text x="0" y="0" font-family="monospace" font-size="15" fill="#c6ffe3" opacity="1">ツ</text><text x="0" y="15" font-family="monospace" font-size="15" fill="#00ff8c" opacity="0.85">セ</text><text x="0" y="30" font-family="monospace" font-size="15" fill="#00ff8c" opacity="0.69">マ</text><text x="0" y="45" font-family="monospace" font-size="15" fill="#00ff8c" opacity="0.54">マ</text><text x="0" y="60" font-family="monospace" font-size="15" fill="#00ff8c" opacity="0.39">ハ</text><text x="0" y="75" font-family="monospace" font-size="15" fill="#00ff8c" opacity="0.23">ラ</text>
+      <animateTransform attributeName="transform" attributeType="XML" type="translate"
+        from="960,-332" to="960,376" dur="4.09s" begin="-0.62s" repeatCount="indefinite" additive="sum"/>
+    </g>
+<g transform="translate(976,-238)">
+      <text x="0" y="0" font-family="monospace" font-size="15" fill="#c6ffe3" opacity="1">ヘ</text><text x="0" y="15" font-family="monospace" font-size="15" fill="#00ff8c" opacity="0.92">&amp;</text><text x="0" y="30" font-family="monospace" font-size="15" fill="#00ff8c" opacity="0.83">7</text><text x="0" y="45" font-family="monospace" font-size="15" fill="#00ff8c" opacity="0.75">レ</text><text x="0" y="60" font-family="monospace" font-size="15" fill="#00ff8c" opacity="0.67">?</text><text x="0" y="75" font-family="monospace" font-size="15" fill="#00ff8c" opacity="0.58">2</text><text x="0" y="90" font-family="monospace" font-size="15" fill="#00ff8c" opacity="0.5">キ</text><text x="0" y="105" font-family="monospace" font-size="15" fill="#00ff8c" opacity="0.41">#</text><text x="0" y="120" font-family="monospace" font-size="15" fill="#00ff8c" opacity="0.33">%</text><text x="0" y="135" font-family="monospace" font-size="15" fill="#00ff8c" opacity="0.25">6</text><text x="0" y="150" font-family="monospace" font-size="15" fill="#00ff8c" opacity="0.16">ル</text>
+      <animateTransform attributeName="transform" attributeType="XML" type="translate"
+        from="976,-238" to="976,456" dur="2.84s" begin="-2.37s" repeatCount="indefinite" additive="sum"/>
+    </g>
+<g transform="translate(992,-206)">
+      <text x="0" y="0" font-family="monospace" font-size="15" fill="#c6ffe3" opacity="1">6</text><text x="0" y="15" font-family="monospace" font-size="15" fill="#00ff8c" opacity="0.91">ヘ</text><text x="0" y="30" font-family="monospace" font-size="15" fill="#00ff8c" opacity="0.82">#</text><text x="0" y="45" font-family="monospace" font-size="15" fill="#00ff8c" opacity="0.72">&amp;</text><text x="0" y="60" font-family="monospace" font-size="15" fill="#00ff8c" opacity="0.63">/</text><text x="0" y="75" font-family="monospace" font-size="15" fill="#00ff8c" opacity="0.54">@</text><text x="0" y="90" font-family="monospace" font-size="15" fill="#00ff8c" opacity="0.45">マ</text><text x="0" y="105" font-family="monospace" font-size="15" fill="#00ff8c" opacity="0.36">ラ</text><text x="0" y="120" font-family="monospace" font-size="15" fill="#00ff8c" opacity="0.26">5</text><text x="0" y="135" font-family="monospace" font-size="15" fill="#00ff8c" opacity="0.17">5</text>
+      <animateTransform attributeName="transform" attributeType="XML" type="translate"
+        from="992,-206" to="992,440" dur="2.62s" begin="-0.92s" repeatCount="indefinite" additive="sum"/>
+    </g>
+<g transform="translate(1008,-41)">
+      <text x="0" y="0" font-family="monospace" font-size="15" fill="#c6ffe3" opacity="1">テ</text><text x="0" y="15" font-family="monospace" font-size="15" fill="#00ff8c" opacity="0.92">ニ</text><text x="0" y="30" font-family="monospace" font-size="15" fill="#00ff8c" opacity="0.85">ミ</text><text x="0" y="45" font-family="monospace" font-size="15" fill="#00ff8c" opacity="0.77">ヤ</text><text x="0" y="60" font-family="monospace" font-size="15" fill="#00ff8c" opacity="0.69">キ</text><text x="0" y="75" font-family="monospace" font-size="15" fill="#00ff8c" opacity="0.62">ヘ</text><text x="0" y="90" font-family="monospace" font-size="15" fill="#00ff8c" opacity="0.54">ハ</text><text x="0" y="105" font-family="monospace" font-size="15" fill="#00ff8c" opacity="0.46">0</text><text x="0" y="120" font-family="monospace" font-size="15" fill="#00ff8c" opacity="0.39">1</text><text x="0" y="135" font-family="monospace" font-size="15" fill="#00ff8c" opacity="0.31">9</text><text x="0" y="150" font-family="monospace" font-size="15" fill="#00ff8c" opacity="0.23">ホ</text><text x="0" y="165" font-family="monospace" font-size="15" fill="#00ff8c" opacity="0.16">4</text>
+      <animateTransform attributeName="transform" attributeType="XML" type="translate"
+        from="1008,-41" to="1008,472" dur="4.95s" begin="-1.09s" repeatCount="indefinite" additive="sum"/>
+    </g>
+<g transform="translate(1024,-20)">
+      <text x="0" y="0" font-family="monospace" font-size="15" fill="#c6ffe3" opacity="1">ワ</text><text x="0" y="15" font-family="monospace" font-size="15" fill="#00ff8c" opacity="0.85">ラ</text><text x="0" y="30" font-family="monospace" font-size="15" fill="#00ff8c" opacity="0.69">キ</text><text x="0" y="45" font-family="monospace" font-size="15" fill="#00ff8c" opacity="0.54">&lt;</text><text x="0" y="60" font-family="monospace" font-size="15" fill="#00ff8c" opacity="0.39">ホ</text><text x="0" y="75" font-family="monospace" font-size="15" fill="#00ff8c" opacity="0.23">レ</text>
+      <animateTransform attributeName="transform" attributeType="XML" type="translate"
+        from="1024,-20" to="1024,376" dur="4.42s" begin="-0.56s" repeatCount="indefinite" additive="sum"/>
+    </g>
+<g transform="translate(1040,-111)">
+      <text x="0" y="0" font-family="monospace" font-size="15" fill="#c6ffe3" opacity="1">イ</text><text x="0" y="15" font-family="monospace" font-size="15" fill="#00ff8c" opacity="0.93">$</text><text x="0" y="30" font-family="monospace" font-size="15" fill="#00ff8c" opacity="0.86">メ</text><text x="0" y="45" font-family="monospace" font-size="15" fill="#00ff8c" opacity="0.79">タ</text><text x="0" y="60" font-family="monospace" font-size="15" fill="#00ff8c" opacity="0.72">エ</text><text x="0" y="75" font-family="monospace" font-size="15" fill="#00ff8c" opacity="0.65">ナ</text><text x="0" y="90" font-family="monospace" font-size="15" fill="#00ff8c" opacity="0.58">ヘ</text><text x="0" y="105" font-family="monospace" font-size="15" fill="#00ff8c" opacity="0.5">ノ</text><text x="0" y="120" font-family="monospace" font-size="15" fill="#00ff8c" opacity="0.43">ツ</text><text x="0" y="135" font-family="monospace" font-size="15" fill="#00ff8c" opacity="0.36">メ</text><text x="0" y="150" font-family="monospace" font-size="15" fill="#00ff8c" opacity="0.29">ノ</text><text x="0" y="165" font-family="monospace" font-size="15" fill="#00ff8c" opacity="0.22">ハ</text><text x="0" y="180" font-family="monospace" font-size="15" fill="#00ff8c" opacity="0.15">6</text>
+      <animateTransform attributeName="transform" attributeType="XML" type="translate"
+        from="1040,-111" to="1040,488" dur="2.71s" begin="-1.74s" repeatCount="indefinite" additive="sum"/>
+    </g>
+<g transform="translate(1056,-308)">
+      <text x="0" y="0" font-family="monospace" font-size="15" fill="#c6ffe3" opacity="1">ナ</text><text x="0" y="15" font-family="monospace" font-size="15" fill="#00ff8c" opacity="0.91">@</text><text x="0" y="30" font-family="monospace" font-size="15" fill="#00ff8c" opacity="0.82">ウ</text><text x="0" y="45" font-family="monospace" font-size="15" fill="#00ff8c" opacity="0.72">モ</text><text x="0" y="60" font-family="monospace" font-size="15" fill="#00ff8c" opacity="0.63">キ</text><text x="0" y="75" font-family="monospace" font-size="15" fill="#00ff8c" opacity="0.54">5</text><text x="0" y="90" font-family="monospace" font-size="15" fill="#00ff8c" opacity="0.45">ラ</text><text x="0" y="105" font-family="monospace" font-size="15" fill="#00ff8c" opacity="0.36">エ</text><text x="0" y="120" font-family="monospace" font-size="15" fill="#00ff8c" opacity="0.26">?</text><text x="0" y="135" font-family="monospace" font-size="15" fill="#00ff8c" opacity="0.17">ヒ</text>
+      <animateTransform attributeName="transform" attributeType="XML" type="translate"
+        from="1056,-308" to="1056,440" dur="5.53s" begin="-4.6s" repeatCount="indefinite" additive="sum"/>
+    </g>
+<g transform="translate(1072,-118)">
+      <text x="0" y="0" font-family="monospace" font-size="15" fill="#c6ffe3" opacity="1">ネ</text><text x="0" y="15" font-family="monospace" font-size="15" fill="#00ff8c" opacity="0.87">6</text><text x="0" y="30" font-family="monospace" font-size="15" fill="#00ff8c" opacity="0.74">キ</text><text x="0" y="45" font-family="monospace" font-size="15" fill="#00ff8c" opacity="0.61">?</text><text x="0" y="60" font-family="monospace" font-size="15" fill="#00ff8c" opacity="0.47">ト</text><text x="0" y="75" font-family="monospace" font-size="15" fill="#00ff8c" opacity="0.34">チ</text><text x="0" y="90" font-family="monospace" font-size="15" fill="#00ff8c" opacity="0.21">@</text>
+      <animateTransform attributeName="transform" attributeType="XML" type="translate"
+        from="1072,-118" to="1072,392" dur="2.87s" begin="-2.75s" repeatCount="indefinite" additive="sum"/>
+    </g>
+<g transform="translate(1088,-132)">
+      <text x="0" y="0" font-family="monospace" font-size="15" fill="#c6ffe3" opacity="1">0</text><text x="0" y="15" font-family="monospace" font-size="15" fill="#00ff8c" opacity="0.77">ア</text><text x="0" y="30" font-family="monospace" font-size="15" fill="#00ff8c" opacity="0.54">ル</text><text x="0" y="45" font-family="monospace" font-size="15" fill="#00ff8c" opacity="0.31">?</text>
+      <animateTransform attributeName="transform" attributeType="XML" type="translate"
+        from="1088,-132" to="1088,344" dur="3.19s" begin="-0.4s" repeatCount="indefinite" additive="sum"/>
+    </g>
+<g transform="translate(1104,-212)">
+      <text x="0" y="0" font-family="monospace" font-size="15" fill="#c6ffe3" opacity="1">ソ</text><text x="0" y="15" font-family="monospace" font-size="15" fill="#00ff8c" opacity="0.87">ロ</text><text x="0" y="30" font-family="monospace" font-size="15" fill="#00ff8c" opacity="0.74">ロ</text><text x="0" y="45" font-family="monospace" font-size="15" fill="#00ff8c" opacity="0.61">/</text><text x="0" y="60" font-family="monospace" font-size="15" fill="#00ff8c" opacity="0.47">5</text><text x="0" y="75" font-family="monospace" font-size="15" fill="#00ff8c" opacity="0.34">3</text><text x="0" y="90" font-family="monospace" font-size="15" fill="#00ff8c" opacity="0.21">ア</text>
+      <animateTransform attributeName="transform" attributeType="XML" type="translate"
+        from="1104,-212" to="1104,392" dur="5.33s" begin="-4.09s" repeatCount="indefinite" additive="sum"/>
+    </g>
+<g transform="translate(1120,-291)">
+      <text x="0" y="0" font-family="monospace" font-size="15" fill="#c6ffe3" opacity="1">ネ</text><text x="0" y="15" font-family="monospace" font-size="15" fill="#00ff8c" opacity="0.85">ル</text><text x="0" y="30" font-family="monospace" font-size="15" fill="#00ff8c" opacity="0.69">1</text><text x="0" y="45" font-family="monospace" font-size="15" fill="#00ff8c" opacity="0.54">&lt;</text><text x="0" y="60" font-family="monospace" font-size="15" fill="#00ff8c" opacity="0.39">/</text><text x="0" y="75" font-family="monospace" font-size="15" fill="#00ff8c" opacity="0.23">ヘ</text>
+      <animateTransform attributeName="transform" attributeType="XML" type="translate"
+        from="1120,-291" to="1120,376" dur="3.02s" begin="-0.08s" repeatCount="indefinite" additive="sum"/>
+    </g>
+<g transform="translate(1136,-84)">
+      <text x="0" y="0" font-family="monospace" font-size="15" fill="#c6ffe3" opacity="1">@</text><text x="0" y="15" font-family="monospace" font-size="15" fill="#00ff8c" opacity="0.91">ヲ</text><text x="0" y="30" font-family="monospace" font-size="15" fill="#00ff8c" opacity="0.82">ト</text><text x="0" y="45" font-family="monospace" font-size="15" fill="#00ff8c" opacity="0.72">カ</text><text x="0" y="60" font-family="monospace" font-size="15" fill="#00ff8c" opacity="0.63">2</text><text x="0" y="75" font-family="monospace" font-size="15" fill="#00ff8c" opacity="0.54">7</text><text x="0" y="90" font-family="monospace" font-size="15" fill="#00ff8c" opacity="0.45">ネ</text><text x="0" y="105" font-family="monospace" font-size="15" fill="#00ff8c" opacity="0.36">#</text><text x="0" y="120" font-family="monospace" font-size="15" fill="#00ff8c" opacity="0.26">1</text><text x="0" y="135" font-family="monospace" font-size="15" fill="#00ff8c" opacity="0.17">ロ</text>
+      <animateTransform attributeName="transform" attributeType="XML" type="translate"
+        from="1136,-84" to="1136,440" dur="3.37s" begin="-2.0s" repeatCount="indefinite" additive="sum"/>
+    </g>
+<g transform="translate(1152,-43)">
+      <text x="0" y="0" font-family="monospace" font-size="15" fill="#c6ffe3" opacity="1">ヒ</text><text x="0" y="15" font-family="monospace" font-size="15" fill="#00ff8c" opacity="0.82">ラ</text><text x="0" y="30" font-family="monospace" font-size="15" fill="#00ff8c" opacity="0.63">ミ</text><text x="0" y="45" font-family="monospace" font-size="15" fill="#00ff8c" opacity="0.45">0</text><text x="0" y="60" font-family="monospace" font-size="15" fill="#00ff8c" opacity="0.26">フ</text>
+      <animateTransform attributeName="transform" attributeType="XML" type="translate"
+        from="1152,-43" to="1152,360" dur="6.44s" begin="-5.04s" repeatCount="indefinite" additive="sum"/>
+    </g>
+<g transform="translate(1168,-191)">
+      <text x="0" y="0" font-family="monospace" font-size="15" fill="#c6ffe3" opacity="1">マ</text><text x="0" y="15" font-family="monospace" font-size="15" fill="#00ff8c" opacity="0.82">!</text><text x="0" y="30" font-family="monospace" font-size="15" fill="#00ff8c" opacity="0.63">ヤ</text><text x="0" y="45" font-family="monospace" font-size="15" fill="#00ff8c" opacity="0.45">カ</text><text x="0" y="60" font-family="monospace" font-size="15" fill="#00ff8c" opacity="0.26">ミ</text>
+      <animateTransform attributeName="transform" attributeType="XML" type="translate"
+        from="1168,-191" to="1168,360" dur="5.13s" begin="-0.06s" repeatCount="indefinite" additive="sum"/>
+    </g>
+<g transform="translate(1184,-125)">
+      <text x="0" y="0" font-family="monospace" font-size="15" fill="#c6ffe3" opacity="1">ク</text><text x="0" y="15" font-family="monospace" font-size="15" fill="#00ff8c" opacity="0.9">ミ</text><text x="0" y="30" font-family="monospace" font-size="15" fill="#00ff8c" opacity="0.8">タ</text><text x="0" y="45" font-family="monospace" font-size="15" fill="#00ff8c" opacity="0.69">4</text><text x="0" y="60" font-family="monospace" font-size="15" fill="#00ff8c" opacity="0.59">ヨ</text><text x="0" y="75" font-family="monospace" font-size="15" fill="#00ff8c" opacity="0.49">/</text><text x="0" y="90" font-family="monospace" font-size="15" fill="#00ff8c" opacity="0.39">ン</text><text x="0" y="105" font-family="monospace" font-size="15" fill="#00ff8c" opacity="0.28">ニ</text><text x="0" y="120" font-family="monospace" font-size="15" fill="#00ff8c" opacity="0.18">ワ</text>
+      <animateTransform attributeName="transform" attributeType="XML" type="translate"
+        from="1184,-125" to="1184,424" dur="6.08s" begin="-2.8s" repeatCount="indefinite" additive="sum"/>
+    </g>
+<g transform="translate(1200,-54)">
+      <text x="0" y="0" font-family="monospace" font-size="15" fill="#c6ffe3" opacity="1">4</text><text x="0" y="15" font-family="monospace" font-size="15" fill="#00ff8c" opacity="0.92">レ</text><text x="0" y="30" font-family="monospace" font-size="15" fill="#00ff8c" opacity="0.85">ニ</text><text x="0" y="45" font-family="monospace" font-size="15" fill="#00ff8c" opacity="0.77">ノ</text><text x="0" y="60" font-family="monospace" font-size="15" fill="#00ff8c" opacity="0.69">#</text><text x="0" y="75" font-family="monospace" font-size="15" fill="#00ff8c" opacity="0.62">ト</text><text x="0" y="90" font-family="monospace" font-size="15" fill="#00ff8c" opacity="0.54">@</text><text x="0" y="105" font-family="monospace" font-size="15" fill="#00ff8c" opacity="0.46">&gt;</text><text x="0" y="120" font-family="monospace" font-size="15" fill="#00ff8c" opacity="0.39">ウ</text><text x="0" y="135" font-family="monospace" font-size="15" fill="#00ff8c" opacity="0.31">ニ</text><text x="0" y="150" font-family="monospace" font-size="15" fill="#00ff8c" opacity="0.23">%</text><text x="0" y="165" font-family="monospace" font-size="15" fill="#00ff8c" opacity="0.16">ム</text>
+      <animateTransform attributeName="transform" attributeType="XML" type="translate"
+        from="1200,-54" to="1200,472" dur="4.49s" begin="-1.96s" repeatCount="indefinite" additive="sum"/>
+    </g>
+<g transform="translate(1216,-66)">
+      <text x="0" y="0" font-family="monospace" font-size="15" fill="#c6ffe3" opacity="1">ヘ</text><text x="0" y="15" font-family="monospace" font-size="15" fill="#00ff8c" opacity="0.87">ハ</text><text x="0" y="30" font-family="monospace" font-size="15" fill="#00ff8c" opacity="0.74">キ</text><text x="0" y="45" font-family="monospace" font-size="15" fill="#00ff8c" opacity="0.61">ヤ</text><text x="0" y="60" font-family="monospace" font-size="15" fill="#00ff8c" opacity="0.47">#</text><text x="0" y="75" font-family="monospace" font-size="15" fill="#00ff8c" opacity="0.34">ノ</text><text x="0" y="90" font-family="monospace" font-size="15" fill="#00ff8c" opacity="0.21">タ</text>
+      <animateTransform attributeName="transform" attributeType="XML" type="translate"
+        from="1216,-66" to="1216,392" dur="4.41s" begin="-2.69s" repeatCount="indefinite" additive="sum"/>
+    </g>
+<g transform="translate(1232,-342)">
+      <text x="0" y="0" font-family="monospace" font-size="15" fill="#c6ffe3" opacity="1">ニ</text><text x="0" y="15" font-family="monospace" font-size="15" fill="#00ff8c" opacity="0.92">%</text><text x="0" y="30" font-family="monospace" font-size="15" fill="#00ff8c" opacity="0.83">ロ</text><text x="0" y="45" font-family="monospace" font-size="15" fill="#00ff8c" opacity="0.75">2</text><text x="0" y="60" font-family="monospace" font-size="15" fill="#00ff8c" opacity="0.67">%</text><text x="0" y="75" font-family="monospace" font-size="15" fill="#00ff8c" opacity="0.58">ニ</text><text x="0" y="90" font-family="monospace" font-size="15" fill="#00ff8c" opacity="0.5">リ</text><text x="0" y="105" font-family="monospace" font-size="15" fill="#00ff8c" opacity="0.41">オ</text><text x="0" y="120" font-family="monospace" font-size="15" fill="#00ff8c" opacity="0.33">ヨ</text><text x="0" y="135" font-family="monospace" font-size="15" fill="#00ff8c" opacity="0.25">?</text><text x="0" y="150" font-family="monospace" font-size="15" fill="#00ff8c" opacity="0.16">チ</text>
+      <animateTransform attributeName="transform" attributeType="XML" type="translate"
+        from="1232,-342" to="1232,456" dur="3.98s" begin="-1.03s" repeatCount="indefinite" additive="sum"/>
+    </g>
+<g transform="translate(1248,-327)">
+      <text x="0" y="0" font-family="monospace" font-size="15" fill="#c6ffe3" opacity="1">6</text><text x="0" y="15" font-family="monospace" font-size="15" fill="#00ff8c" opacity="0.82">ト</text><text x="0" y="30" font-family="monospace" font-size="15" fill="#00ff8c" opacity="0.63">2</text><text x="0" y="45" font-family="monospace" font-size="15" fill="#00ff8c" opacity="0.45">モ</text><text x="0" y="60" font-family="monospace" font-size="15" fill="#00ff8c" opacity="0.26">ン</text>
+      <animateTransform attributeName="transform" attributeType="XML" type="translate"
+        from="1248,-327" to="1248,360" dur="5.41s" begin="-2.64s" repeatCount="indefinite" additive="sum"/>
+    </g>
+<g transform="translate(1264,-221)">
+      <text x="0" y="0" font-family="monospace" font-size="15" fill="#c6ffe3" opacity="1">テ</text><text x="0" y="15" font-family="monospace" font-size="15" fill="#00ff8c" opacity="0.92">ホ</text><text x="0" y="30" font-family="monospace" font-size="15" fill="#00ff8c" opacity="0.83">2</text><text x="0" y="45" font-family="monospace" font-size="15" fill="#00ff8c" opacity="0.75">ト</text><text x="0" y="60" font-family="monospace" font-size="15" fill="#00ff8c" opacity="0.67">ネ</text><text x="0" y="75" font-family="monospace" font-size="15" fill="#00ff8c" opacity="0.58">0</text><text x="0" y="90" font-family="monospace" font-size="15" fill="#00ff8c" opacity="0.5">レ</text><text x="0" y="105" font-family="monospace" font-size="15" fill="#00ff8c" opacity="0.41">フ</text><text x="0" y="120" font-family="monospace" font-size="15" fill="#00ff8c" opacity="0.33">モ</text><text x="0" y="135" font-family="monospace" font-size="15" fill="#00ff8c" opacity="0.25">リ</text><text x="0" y="150" font-family="monospace" font-size="15" fill="#00ff8c" opacity="0.16">ヨ</text>
+      <animateTransform attributeName="transform" attributeType="XML" type="translate"
+        from="1264,-221" to="1264,456" dur="5.69s" begin="-0.53s" repeatCount="indefinite" additive="sum"/>
+    </g>
+<g transform="translate(1280,-233)">
+      <text x="0" y="0" font-family="monospace" font-size="15" fill="#c6ffe3" opacity="1">ヒ</text><text x="0" y="15" font-family="monospace" font-size="15" fill="#00ff8c" opacity="0.9">2</text><text x="0" y="30" font-family="monospace" font-size="15" fill="#00ff8c" opacity="0.8">メ</text><text x="0" y="45" font-family="monospace" font-size="15" fill="#00ff8c" opacity="0.69">ニ</text><text x="0" y="60" font-family="monospace" font-size="15" fill="#00ff8c" opacity="0.59">ネ</text><text x="0" y="75" font-family="monospace" font-size="15" fill="#00ff8c" opacity="0.49">ナ</text><text x="0" y="90" font-family="monospace" font-size="15" fill="#00ff8c" opacity="0.39">テ</text><text x="0" y="105" font-family="monospace" font-size="15" fill="#00ff8c" opacity="0.28">ア</text><text x="0" y="120" font-family="monospace" font-size="15" fill="#00ff8c" opacity="0.18">4</text>
+      <animateTransform attributeName="transform" attributeType="XML" type="translate"
+        from="1280,-233" to="1280,424" dur="6.49s" begin="-3.57s" repeatCount="indefinite" additive="sum"/>
+    </g>
+<g transform="translate(1296,-289)">
+      <text x="0" y="0" font-family="monospace" font-size="15" fill="#c6ffe3" opacity="1">6</text><text x="0" y="15" font-family="monospace" font-size="15" fill="#00ff8c" opacity="0.87">2</text><text x="0" y="30" font-family="monospace" font-size="15" fill="#00ff8c" opacity="0.74">タ</text><text x="0" y="45" font-family="monospace" font-size="15" fill="#00ff8c" opacity="0.61">チ</text><text x="0" y="60" font-family="monospace" font-size="15" fill="#00ff8c" opacity="0.47">ツ</text><text x="0" y="75" font-family="monospace" font-size="15" fill="#00ff8c" opacity="0.34">5</text><text x="0" y="90" font-family="monospace" font-size="15" fill="#00ff8c" opacity="0.21">モ</text>
+      <animateTransform attributeName="transform" attributeType="XML" type="translate"
+        from="1296,-289" to="1296,392" dur="3.07s" begin="-1.65s" repeatCount="indefinite" additive="sum"/>
+    </g>
+<g transform="translate(1312,-80)">
+      <text x="0" y="0" font-family="monospace" font-size="15" fill="#c6ffe3" opacity="1">ロ</text><text x="0" y="15" font-family="monospace" font-size="15" fill="#00ff8c" opacity="0.89">ヌ</text><text x="0" y="30" font-family="monospace" font-size="15" fill="#00ff8c" opacity="0.77">\</text><text x="0" y="45" font-family="monospace" font-size="15" fill="#00ff8c" opacity="0.66">カ</text><text x="0" y="60" font-family="monospace" font-size="15" fill="#00ff8c" opacity="0.54">@</text><text x="0" y="75" font-family="monospace" font-size="15" fill="#00ff8c" opacity="0.42">チ</text><text x="0" y="90" font-family="monospace" font-size="15" fill="#00ff8c" opacity="0.31">ヌ</text><text x="0" y="105" font-family="monospace" font-size="15" fill="#00ff8c" opacity="0.19">テ</text>
+      <animateTransform attributeName="transform" attributeType="XML" type="translate"
+        from="1312,-80" to="1312,408" dur="4.9s" begin="-3.73s" repeatCount="indefinite" additive="sum"/>
+    </g>
+<g transform="translate(1328,-359)">
+      <text x="0" y="0" font-family="monospace" font-size="15" fill="#c6ffe3" opacity="1">イ</text><text x="0" y="15" font-family="monospace" font-size="15" fill="#00ff8c" opacity="0.9">ニ</text><text x="0" y="30" font-family="monospace" font-size="15" fill="#00ff8c" opacity="0.8">ネ</text><text x="0" y="45" font-family="monospace" font-size="15" fill="#00ff8c" opacity="0.69">\</text><text x="0" y="60" font-family="monospace" font-size="15" fill="#00ff8c" opacity="0.59">エ</text><text x="0" y="75" font-family="monospace" font-size="15" fill="#00ff8c" opacity="0.49">リ</text><text x="0" y="90" font-family="monospace" font-size="15" fill="#00ff8c" opacity="0.39">ヌ</text><text x="0" y="105" font-family="monospace" font-size="15" fill="#00ff8c" opacity="0.28">2</text><text x="0" y="120" font-family="monospace" font-size="15" fill="#00ff8c" opacity="0.18">?</text>
+      <animateTransform attributeName="transform" attributeType="XML" type="translate"
+        from="1328,-359" to="1328,424" dur="3.78s" begin="-2.68s" repeatCount="indefinite" additive="sum"/>
+    </g>
+<g transform="translate(1344,-124)">
+      <text x="0" y="0" font-family="monospace" font-size="15" fill="#c6ffe3" opacity="1">$</text><text x="0" y="15" font-family="monospace" font-size="15" fill="#00ff8c" opacity="0.85">オ</text><text x="0" y="30" font-family="monospace" font-size="15" fill="#00ff8c" opacity="0.69">ル</text><text x="0" y="45" font-family="monospace" font-size="15" fill="#00ff8c" opacity="0.54">ヌ</text><text x="0" y="60" font-family="monospace" font-size="15" fill="#00ff8c" opacity="0.39">モ</text><text x="0" y="75" font-family="monospace" font-size="15" fill="#00ff8c" opacity="0.23">モ</text>
+      <animateTransform attributeName="transform" attributeType="XML" type="translate"
+        from="1344,-124" to="1344,376" dur="5.99s" begin="-2.94s" repeatCount="indefinite" additive="sum"/>
+    </g>
+<g transform="translate(1360,-276)">
+      <text x="0" y="0" font-family="monospace" font-size="15" fill="#c6ffe3" opacity="1">?</text><text x="0" y="15" font-family="monospace" font-size="15" fill="#00ff8c" opacity="0.92">$</text><text x="0" y="30" font-family="monospace" font-size="15" fill="#00ff8c" opacity="0.83">モ</text><text x="0" y="45" font-family="monospace" font-size="15" fill="#00ff8c" opacity="0.75">ア</text><text x="0" y="60" font-family="monospace" font-size="15" fill="#00ff8c" opacity="0.67">!</text><text x="0" y="75" font-family="monospace" font-size="15" fill="#00ff8c" opacity="0.58">セ</text><text x="0" y="90" font-family="monospace" font-size="15" fill="#00ff8c" opacity="0.5">ホ</text><text x="0" y="105" font-family="monospace" font-size="15" fill="#00ff8c" opacity="0.41">ヤ</text><text x="0" y="120" font-family="monospace" font-size="15" fill="#00ff8c" opacity="0.33">セ</text><text x="0" y="135" font-family="monospace" font-size="15" fill="#00ff8c" opacity="0.25">ル</text><text x="0" y="150" font-family="monospace" font-size="15" fill="#00ff8c" opacity="0.16">ヲ</text>
+      <animateTransform attributeName="transform" attributeType="XML" type="translate"
+        from="1360,-276" to="1360,456" dur="3.32s" begin="-0.17s" repeatCount="indefinite" additive="sum"/>
+    </g>
+<g transform="translate(1376,-373)">
+      <text x="0" y="0" font-family="monospace" font-size="15" fill="#c6ffe3" opacity="1">ネ</text><text x="0" y="15" font-family="monospace" font-size="15" fill="#00ff8c" opacity="0.77">ウ</text><text x="0" y="30" font-family="monospace" font-size="15" fill="#00ff8c" opacity="0.54">ト</text><text x="0" y="45" font-family="monospace" font-size="15" fill="#00ff8c" opacity="0.31">ア</text>
+      <animateTransform attributeName="transform" attributeType="XML" type="translate"
+        from="1376,-373" to="1376,344" dur="3.18s" begin="-1.79s" repeatCount="indefinite" additive="sum"/>
+    </g>
+<g transform="translate(1392,-59)">
+      <text x="0" y="0" font-family="monospace" font-size="15" fill="#c6ffe3" opacity="1">ワ</text><text x="0" y="15" font-family="monospace" font-size="15" fill="#00ff8c" opacity="0.92">テ</text><text x="0" y="30" font-family="monospace" font-size="15" fill="#00ff8c" opacity="0.85">7</text><text x="0" y="45" font-family="monospace" font-size="15" fill="#00ff8c" opacity="0.77">ヨ</text><text x="0" y="60" font-family="monospace" font-size="15" fill="#00ff8c" opacity="0.69">ヘ</text><text x="0" y="75" font-family="monospace" font-size="15" fill="#00ff8c" opacity="0.62">ム</text><text x="0" y="90" font-family="monospace" font-size="15" fill="#00ff8c" opacity="0.54">&lt;</text><text x="0" y="105" font-family="monospace" font-size="15" fill="#00ff8c" opacity="0.46">ム</text><text x="0" y="120" font-family="monospace" font-size="15" fill="#00ff8c" opacity="0.39">ネ</text><text x="0" y="135" font-family="monospace" font-size="15" fill="#00ff8c" opacity="0.31">$</text><text x="0" y="150" font-family="monospace" font-size="15" fill="#00ff8c" opacity="0.23">レ</text><text x="0" y="165" font-family="monospace" font-size="15" fill="#00ff8c" opacity="0.16">ミ</text>
+      <animateTransform attributeName="transform" attributeType="XML" type="translate"
+        from="1392,-59" to="1392,472" dur="4.22s" begin="-2.52s" repeatCount="indefinite" additive="sum"/>
+    </g>
+<g transform="translate(1408,-159)">
+      <text x="0" y="0" font-family="monospace" font-size="15" fill="#c6ffe3" opacity="1">5</text><text x="0" y="15" font-family="monospace" font-size="15" fill="#00ff8c" opacity="0.89">カ</text><text x="0" y="30" font-family="monospace" font-size="15" fill="#00ff8c" opacity="0.77">?</text><text x="0" y="45" font-family="monospace" font-size="15" fill="#00ff8c" opacity="0.66">6</text><text x="0" y="60" font-family="monospace" font-size="15" fill="#00ff8c" opacity="0.54">ツ</text><text x="0" y="75" font-family="monospace" font-size="15" fill="#00ff8c" opacity="0.42">ヲ</text><text x="0" y="90" font-family="monospace" font-size="15" fill="#00ff8c" opacity="0.31">ツ</text><text x="0" y="105" font-family="monospace" font-size="15" fill="#00ff8c" opacity="0.19">ナ</text>
+      <animateTransform attributeName="transform" attributeType="XML" type="translate"
+        from="1408,-159" to="1408,408" dur="5.02s" begin="-3.06s" repeatCount="indefinite" additive="sum"/>
+    </g>
+<g transform="translate(1424,-370)">
+      <text x="0" y="0" font-family="monospace" font-size="15" fill="#c6ffe3" opacity="1">ソ</text><text x="0" y="15" font-family="monospace" font-size="15" fill="#00ff8c" opacity="0.82">オ</text><text x="0" y="30" font-family="monospace" font-size="15" fill="#00ff8c" opacity="0.63">マ</text><text x="0" y="45" font-family="monospace" font-size="15" fill="#00ff8c" opacity="0.45">ム</text><text x="0" y="60" font-family="monospace" font-size="15" fill="#00ff8c" opacity="0.26">2</text>
+      <animateTransform attributeName="transform" attributeType="XML" type="translate"
+        from="1424,-370" to="1424,360" dur="3.54s" begin="-1.95s" repeatCount="indefinite" additive="sum"/>
+    </g>
+<g transform="translate(1440,-210)">
+      <text x="0" y="0" font-family="monospace" font-size="15" fill="#c6ffe3" opacity="1">3</text><text x="0" y="15" font-family="monospace" font-size="15" fill="#00ff8c" opacity="0.93">ヌ</text><text x="0" y="30" font-family="monospace" font-size="15" fill="#00ff8c" opacity="0.86">2</text><text x="0" y="45" font-family="monospace" font-size="15" fill="#00ff8c" opacity="0.79">$</text><text x="0" y="60" font-family="monospace" font-size="15" fill="#00ff8c" opacity="0.72">メ</text><text x="0" y="75" font-family="monospace" font-size="15" fill="#00ff8c" opacity="0.65">セ</text><text x="0" y="90" font-family="monospace" font-size="15" fill="#00ff8c" opacity="0.58">1</text><text x="0" y="105" font-family="monospace" font-size="15" fill="#00ff8c" opacity="0.5">テ</text><text x="0" y="120" font-family="monospace" font-size="15" fill="#00ff8c" opacity="0.43">&gt;</text><text x="0" y="135" font-family="monospace" font-size="15" fill="#00ff8c" opacity="0.36">ナ</text><text x="0" y="150" font-family="monospace" font-size="15" fill="#00ff8c" opacity="0.29">8</text><text x="0" y="165" font-family="monospace" font-size="15" fill="#00ff8c" opacity="0.22">8</text><text x="0" y="180" font-family="monospace" font-size="15" fill="#00ff8c" opacity="0.15">ヲ</text>
+      <animateTransform attributeName="transform" attributeType="XML" type="translate"
+        from="1440,-210" to="1440,488" dur="3.74s" begin="-0.87s" repeatCount="indefinite" additive="sum"/>
+    </g>
+<g transform="translate(1456,-112)">
+      <text x="0" y="0" font-family="monospace" font-size="15" fill="#c6ffe3" opacity="1">ア</text><text x="0" y="15" font-family="monospace" font-size="15" fill="#00ff8c" opacity="0.93">ラ</text><text x="0" y="30" font-family="monospace" font-size="15" fill="#00ff8c" opacity="0.86">テ</text><text x="0" y="45" font-family="monospace" font-size="15" fill="#00ff8c" opacity="0.79">ン</text><text x="0" y="60" font-family="monospace" font-size="15" fill="#00ff8c" opacity="0.72">ク</text><text x="0" y="75" font-family="monospace" font-size="15" fill="#00ff8c" opacity="0.65">&lt;</text><text x="0" y="90" font-family="monospace" font-size="15" fill="#00ff8c" opacity="0.58">ニ</text><text x="0" y="105" font-family="monospace" font-size="15" fill="#00ff8c" opacity="0.5">!</text><text x="0" y="120" font-family="monospace" font-size="15" fill="#00ff8c" opacity="0.43">ク</text><text x="0" y="135" font-family="monospace" font-size="15" fill="#00ff8c" opacity="0.36">セ</text><text x="0" y="150" font-family="monospace" font-size="15" fill="#00ff8c" opacity="0.29">エ</text><text x="0" y="165" font-family="monospace" font-size="15" fill="#00ff8c" opacity="0.22">ソ</text><text x="0" y="180" font-family="monospace" font-size="15" fill="#00ff8c" opacity="0.15">8</text>
+      <animateTransform attributeName="transform" attributeType="XML" type="translate"
+        from="1456,-112" to="1456,488" dur="5.74s" begin="-1.14s" repeatCount="indefinite" additive="sum"/>
+    </g>
+<g transform="translate(1472,-146)">
+      <text x="0" y="0" font-family="monospace" font-size="15" fill="#c6ffe3" opacity="1">ヌ</text><text x="0" y="15" font-family="monospace" font-size="15" fill="#00ff8c" opacity="0.89">ム</text><text x="0" y="30" font-family="monospace" font-size="15" fill="#00ff8c" opacity="0.77">ア</text><text x="0" y="45" font-family="monospace" font-size="15" fill="#00ff8c" opacity="0.66">メ</text><text x="0" y="60" font-family="monospace" font-size="15" fill="#00ff8c" opacity="0.54">2</text><text x="0" y="75" font-family="monospace" font-size="15" fill="#00ff8c" opacity="0.42">ネ</text><text x="0" y="90" font-family="monospace" font-size="15" fill="#00ff8c" opacity="0.31">2</text><text x="0" y="105" font-family="monospace" font-size="15" fill="#00ff8c" opacity="0.19">ホ</text>
+      <animateTransform attributeName="transform" attributeType="XML" type="translate"
+        from="1472,-146" to="1472,408" dur="5.52s" begin="-3.14s" repeatCount="indefinite" additive="sum"/>
+    </g>
+<g transform="translate(1488,-194)">
+      <text x="0" y="0" font-family="monospace" font-size="15" fill="#c6ffe3" opacity="1">ロ</text><text x="0" y="15" font-family="monospace" font-size="15" fill="#00ff8c" opacity="0.89">ネ</text><text x="0" y="30" font-family="monospace" font-size="15" fill="#00ff8c" opacity="0.77">%</text><text x="0" y="45" font-family="monospace" font-size="15" fill="#00ff8c" opacity="0.66">ミ</text><text x="0" y="60" font-family="monospace" font-size="15" fill="#00ff8c" opacity="0.54">5</text><text x="0" y="75" font-family="monospace" font-size="15" fill="#00ff8c" opacity="0.42">ノ</text><text x="0" y="90" font-family="monospace" font-size="15" fill="#00ff8c" opacity="0.31">ロ</text><text x="0" y="105" font-family="monospace" font-size="15" fill="#00ff8c" opacity="0.19">ナ</text>
+      <animateTransform attributeName="transform" attributeType="XML" type="translate"
+        from="1488,-194" to="1488,408" dur="4.71s" begin="-2.06s" repeatCount="indefinite" additive="sum"/>
+    </g>
+<g transform="translate(1504,-404)">
+      <text x="0" y="0" font-family="monospace" font-size="15" fill="#c6ffe3" opacity="1">$</text><text x="0" y="15" font-family="monospace" font-size="15" fill="#00ff8c" opacity="0.77">ル</text><text x="0" y="30" font-family="monospace" font-size="15" fill="#00ff8c" opacity="0.54">レ</text><text x="0" y="45" font-family="monospace" font-size="15" fill="#00ff8c" opacity="0.31">?</text>
+      <animateTransform attributeName="transform" attributeType="XML" type="translate"
+        from="1504,-404" to="1504,344" dur="3.49s" begin="-2.35s" repeatCount="indefinite" additive="sum"/>
+    </g>
+<g transform="translate(1520,-59)">
+      <text x="0" y="0" font-family="monospace" font-size="15" fill="#c6ffe3" opacity="1">ネ</text><text x="0" y="15" font-family="monospace" font-size="15" fill="#00ff8c" opacity="0.77">6</text><text x="0" y="30" font-family="monospace" font-size="15" fill="#00ff8c" opacity="0.54">6</text><text x="0" y="45" font-family="monospace" font-size="15" fill="#00ff8c" opacity="0.31">タ</text>
+      <animateTransform attributeName="transform" attributeType="XML" type="translate"
+        from="1520,-59" to="1520,344" dur="5.22s" begin="-1.41s" repeatCount="indefinite" additive="sum"/>
+    </g>
+<g transform="translate(1536,-185)">
+      <text x="0" y="0" font-family="monospace" font-size="15" fill="#c6ffe3" opacity="1">タ</text><text x="0" y="15" font-family="monospace" font-size="15" fill="#00ff8c" opacity="0.92">レ</text><text x="0" y="30" font-family="monospace" font-size="15" fill="#00ff8c" opacity="0.83">ミ</text><text x="0" y="45" font-family="monospace" font-size="15" fill="#00ff8c" opacity="0.75">ヲ</text><text x="0" y="60" font-family="monospace" font-size="15" fill="#00ff8c" opacity="0.67">!</text><text x="0" y="75" font-family="monospace" font-size="15" fill="#00ff8c" opacity="0.58">ヤ</text><text x="0" y="90" font-family="monospace" font-size="15" fill="#00ff8c" opacity="0.5">\</text><text x="0" y="105" font-family="monospace" font-size="15" fill="#00ff8c" opacity="0.41">ウ</text><text x="0" y="120" font-family="monospace" font-size="15" fill="#00ff8c" opacity="0.33">モ</text><text x="0" y="135" font-family="monospace" font-size="15" fill="#00ff8c" opacity="0.25">ヒ</text><text x="0" y="150" font-family="monospace" font-size="15" fill="#00ff8c" opacity="0.16">マ</text>
+      <animateTransform attributeName="transform" attributeType="XML" type="translate"
+        from="1536,-185" to="1536,456" dur="5.14s" begin="-4.71s" repeatCount="indefinite" additive="sum"/>
+    </g>
+<g transform="translate(1552,-286)">
+      <text x="0" y="0" font-family="monospace" font-size="15" fill="#c6ffe3" opacity="1">ハ</text><text x="0" y="15" font-family="monospace" font-size="15" fill="#00ff8c" opacity="0.9">マ</text><text x="0" y="30" font-family="monospace" font-size="15" fill="#00ff8c" opacity="0.8">2</text><text x="0" y="45" font-family="monospace" font-size="15" fill="#00ff8c" opacity="0.69">ヤ</text><text x="0" y="60" font-family="monospace" font-size="15" fill="#00ff8c" opacity="0.59">ヌ</text><text x="0" y="75" font-family="monospace" font-size="15" fill="#00ff8c" opacity="0.49">0</text><text x="0" y="90" font-family="monospace" font-size="15" fill="#00ff8c" opacity="0.39">?</text><text x="0" y="105" font-family="monospace" font-size="15" fill="#00ff8c" opacity="0.28">ホ</text><text x="0" y="120" font-family="monospace" font-size="15" fill="#00ff8c" opacity="0.18">!</text>
+      <animateTransform attributeName="transform" attributeType="XML" type="translate"
+        from="1552,-286" to="1552,424" dur="5.21s" begin="-4.47s" repeatCount="indefinite" additive="sum"/>
+    </g>
+<g transform="translate(1568,-432)">
+      <text x="0" y="0" font-family="monospace" font-size="15" fill="#c6ffe3" opacity="1">ノ</text><text x="0" y="15" font-family="monospace" font-size="15" fill="#00ff8c" opacity="0.92">ア</text><text x="0" y="30" font-family="monospace" font-size="15" fill="#00ff8c" opacity="0.85">\</text><text x="0" y="45" font-family="monospace" font-size="15" fill="#00ff8c" opacity="0.77">7</text><text x="0" y="60" font-family="monospace" font-size="15" fill="#00ff8c" opacity="0.69">ホ</text><text x="0" y="75" font-family="monospace" font-size="15" fill="#00ff8c" opacity="0.62">$</text><text x="0" y="90" font-family="monospace" font-size="15" fill="#00ff8c" opacity="0.54">ユ</text><text x="0" y="105" font-family="monospace" font-size="15" fill="#00ff8c" opacity="0.46">!</text><text x="0" y="120" font-family="monospace" font-size="15" fill="#00ff8c" opacity="0.39">オ</text><text x="0" y="135" font-family="monospace" font-size="15" fill="#00ff8c" opacity="0.31">0</text><text x="0" y="150" font-family="monospace" font-size="15" fill="#00ff8c" opacity="0.23">$</text><text x="0" y="165" font-family="monospace" font-size="15" fill="#00ff8c" opacity="0.16">ラ</text>
+      <animateTransform attributeName="transform" attributeType="XML" type="translate"
+        from="1568,-432" to="1568,472" dur="4.37s" begin="-1.37s" repeatCount="indefinite" additive="sum"/>
+    </g>
+<g transform="translate(1584,-239)">
+      <text x="0" y="0" font-family="monospace" font-size="15" fill="#c6ffe3" opacity="1">ワ</text><text x="0" y="15" font-family="monospace" font-size="15" fill="#00ff8c" opacity="0.92">6</text><text x="0" y="30" font-family="monospace" font-size="15" fill="#00ff8c" opacity="0.83">ヤ</text><text x="0" y="45" font-family="monospace" font-size="15" fill="#00ff8c" opacity="0.75">ヲ</text><text x="0" y="60" font-family="monospace" font-size="15" fill="#00ff8c" opacity="0.67">ム</text><text x="0" y="75" font-family="monospace" font-size="15" fill="#00ff8c" opacity="0.58">6</text><text x="0" y="90" font-family="monospace" font-size="15" fill="#00ff8c" opacity="0.5">エ</text><text x="0" y="105" font-family="monospace" font-size="15" fill="#00ff8c" opacity="0.41">ツ</text><text x="0" y="120" font-family="monospace" font-size="15" fill="#00ff8c" opacity="0.33">ニ</text><text x="0" y="135" font-family="monospace" font-size="15" fill="#00ff8c" opacity="0.25">リ</text><text x="0" y="150" font-family="monospace" font-size="15" fill="#00ff8c" opacity="0.16">イ</text>
+      <animateTransform attributeName="transform" attributeType="XML" type="translate"
+        from="1584,-239" to="1584,456" dur="2.81s" begin="-1.46s" repeatCount="indefinite" additive="sum"/>
+    </g>  </g>
+
+  <!-- scanlines -->
+  <rect x="0" y="0" width="1600" height="220" fill="url(#scanlines)" style="mix-blend-mode:screen"/>
+
+  <!-- vignette -->
+  <rect x="0" y="0" width="1600" height="220" fill="url(#vignette)"/>
+
+  <!-- frame -->
+  <rect x="14" y="14" width="1572" height="192" rx="4" ry="4" fill="none" stroke="#00ff99" stroke-opacity="0.25" stroke-width="1"/>
+
+  <!-- corner brackets -->
+  <path d="M 14 42 L 14 14 L 42 14" fill="none" stroke="#00ff99" stroke-width="3"/>
+  <path d="M 1558 14 L 1586 14 L 1586 42" fill="none" stroke="#00ff99" stroke-width="3"/>
+  <path d="M 14 178 L 14 206 L 42 206" fill="none" stroke="#00ff99" stroke-width="3"/>
+  <path d="M 1586 178 L 1586 206 L 1558 206" fill="none" stroke="#00ff99" stroke-width="3"/>
+
+  <!-- content -->
+  <g text-anchor="middle" font-family="'JetBrains Mono', 'Courier New', monospace">
+    <text x="800" y="98" font-size="34" font-weight="700" letter-spacing="4" fill="#eafff3" filter="url(#glowText)">THANK YOU FOR VISITING</text>
+
+    <text x="800" y="132" font-size="18" letter-spacing="3" fill="#8cffc6" filter="url(#glowSoft)">See you in the next commit&#8230;</text>
+
+    <text x="800" y="180" font-size="21" fill="#00ff88" filter="url(#glowSoft)">
+      <tspan>&gt; shutdown -h now </tspan><tspan fill="#00ff88">&#9608;<animate attributeName="opacity" values="1;1;0;0;1" keyTimes="0;0.45;0.5;0.95;1" dur="1s" repeatCount="indefinite"/></tspan>
+    </text>
+  </g>
+</g>
+</svg>
