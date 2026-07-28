@@ -26,7 +26,7 @@
 </p>
 
 
-# 🚀 Tech Stack
+#  Tech Stack
 
 <div align="center">
 
@@ -66,7 +66,7 @@
 
 
 
-# 🌐 Connect With Me
+#  Connect With Me
 
 <div align="center">
 
