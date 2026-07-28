@@ -16,60 +16,11 @@
 
 
 
-# <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Objects/Desktop%20Computer.png" width="32"> Terminal
+<p align="center">
+  <img src="./terminal.svg" alt="Terminal Animation" width="100%">
+</p>
 
-```bash
-$ whoami
 
-Umar Qadri
-
---------------------------------------
-
-Role
-────
-
-Full Stack Developer
-
---------------------------------------
-
-Frontend
-
-✔ Angular 20
-✔ TypeScript
-✔ JavaScript
-✔ Three.js
-✔ GSAP
-✔ TailwindCSS
-
---------------------------------------
-
-Backend
-
-✔ Node.js
-✔ Express.js
-✔ FastAPI
-✔ Python
-
---------------------------------------
-
-Database
-
-✔ MongoDB
-✔ MySQL
-✔ Firebase
-
---------------------------------------
-
-Status
-
-🟢 Available for Freelance
-
---------------------------------------
-
-Location
-
-📍 Pakistan
-```
 <p align="center">
 <img src="assets/divider.svg" width="100%">
 </p>
