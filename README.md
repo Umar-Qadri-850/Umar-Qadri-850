@@ -16,54 +16,61 @@
 
 ---
 
-# 💻 About Me
 
-```javascript
-const Umar = {
 
-location:"Pakistan",
+# <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Objects/Desktop%20Computer.png" width="32"> Terminal
 
-role:"Full Stack Developer",
+```bash
+$ whoami
 
-frontend:[
-"Angular 20",
-"TypeScript",
-"JavaScript",
-"HTML",
-"CSS",
-"TailwindCSS",
-"GSAP",
-"Three.js"
-],
+Umar Qadri
 
-backend:[
-"Node.js",
-"Express",
-"FastAPI",
-"Python"
-],
+--------------------------------------
 
-database:[
-"MySQL",
-"MongoDB",
-"Firebase"
-],
+Role
+────
 
-currentlyWorkingOn:[
-"DOMIUS NOCTIS",
-"AI Chatbots",
-"3D Websites",
-"Angular Projects"
-],
+Full Stack Developer
 
-currentlyLearning:[
-"Docker",
-"AWS",
-"Advanced Backend"
-],
+--------------------------------------
 
-funFact:"I love building cinematic websites."
-}
+Frontend
+
+✔ Angular 20
+✔ TypeScript
+✔ JavaScript
+✔ Three.js
+✔ GSAP
+✔ TailwindCSS
+
+--------------------------------------
+
+Backend
+
+✔ Node.js
+✔ Express.js
+✔ FastAPI
+✔ Python
+
+--------------------------------------
+
+Database
+
+✔ MongoDB
+✔ MySQL
+✔ Firebase
+
+--------------------------------------
+
+Status
+
+🟢 Available for Freelance
+
+--------------------------------------
+
+Location
+
+📍 Pakistan
 ```
 
 ---
@@ -125,7 +132,25 @@ funFact:"I love building cinematic websites."
 ✅ Fiverr Freelancing
 
 ---
+# ⚡ Skill Levels
 
+```text
+
+Angular          ████████████████████ 95%
+
+Three.js         ████████████████░░░░ 80%
+
+GSAP             ██████████████████░░ 90%
+
+Node.js          ███████████████░░░░░ 75%
+
+Python           █████████████████░░░ 85%
+
+AI               ████████████████░░░░ 82%
+
+UI/UX            ██████████████████░░ 90%
+
+```
 # 🌐 Connect With Me
 
 <div align="center">
