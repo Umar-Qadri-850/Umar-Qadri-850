@@ -16,7 +16,7 @@
 
 ---
 
-# 💻 About Me
+
 
 # <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Objects/Desktop%20Computer.png" width="32"> Terminal
 
